@@ -95,6 +95,7 @@ class SiteController extends Controller
             $model_log->save();
 
             $id = DsisSystemLog::find()->orderBy(['id' => SORT_DESC])->limit(1)->one();
+            $_SESSION['project'] = 'Default';
             // var_dump($id->id);
             // exit();
             Yii::$app->session['log_id'] = $id->id;
@@ -117,7 +118,19 @@ class SiteController extends Controller
         $connection->createCommand()->update('dsis_system_log', ['end_login' => date("H:i:s a")], ['id' => $log_id])->execute();
 
         Yii::$app->user->logout();
+        
+        $session = Yii::$app->session;
+        // check if a session is already open
+        if ($session->isActive);
+        // open a session
+        $session->open();
 
+        
+        // close a session
+        $session->close();
+        // destroys all data registered to a session.
+        $session->destroy();
+        $_SESSION["project"] = 'Default';
         return $this->goHome();
     }
 

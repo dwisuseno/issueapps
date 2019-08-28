@@ -2,6 +2,7 @@
 
 $params = require(__DIR__ . '/params.php');
 $GLOBALS['project'] = "Test";
+$_SESSION["project"] = "Default";
 
 $config = [
     'id' => 'basic',

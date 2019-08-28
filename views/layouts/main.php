@@ -68,9 +68,8 @@ AppAsset::register($this);
         <nav class="navbar navbar-static-top">
           <div class="container">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-                <i class="fa fa-bars"></i>
-              </button>
+              
+              <?php if(Yii::$app->user->identity != null){ ?>
               <div class="input-group margin">
                 <div class="input-group-btn">
                   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Select Modul
@@ -85,13 +84,14 @@ AppAsset::register($this);
                     ?>
                     <?php
                     for ($i=0; $i < sizeof($result); $i++) { 
-                       echo "<li><a href=".Url::home()."frontend/m-modul/changemodul/".$result[$i]['id'].">".$result[$i]['name']."</a></li>";
+                       echo "<li><a href=".Url::home()."frontend/m-modul/changemodul?id=".$result[$i]['id'].">".$result[$i]['name']."</a></li>";
                     } 
                     ?>
                     
                   </ul>
                 </div>
               </div>
+              <?php } ?>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -187,7 +187,6 @@ AppAsset::register($this);
                       </li>
                   <?php } ?>
                     <li class="header">Let's Scrum it!</li>
-                    <li class="header"><?= $GLOBALS['project'] ?></li>
                     <li><a href="<?= Url::home()?>dashboard"><i class="fa fa-dashboard"></i> <span>Dashboard</span><span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
             </span></a></li>
@@ -197,9 +196,11 @@ AppAsset::register($this);
                     <li><a href="<?= Url::home()?>confirmation"><i class="fa fa-tasks"></i> <span>Need Confirmation</span></a></li>
                     <li><a href="<?= Url::home()?>done"><i class="fa fa-check-square-o"></i> <span>Done</span></a></li>
                     <?php 
+                      
                       if(Yii::$app->user->identity != null){ 
                         $sprint_now = MSprint::find()->where('kode = 1')->one(); ?>
                         <li><a href="<?= Url::home()?>">Sprint Saat Ini: <?= $sprint_now->name ?></a></li>
+                        <li class="header">Modul: <?php echo $_SESSION["project"] ?></li>
                       <?php } else {?>
 
                       <?php } ?>
