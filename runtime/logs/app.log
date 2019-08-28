@@ -18242,3 +18242,2365 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1566959314.314
     'REQUEST_TIME' => 1566959314
 ]
+2019-08-28 10:33:37 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/7b1284e6/media/js/jquery.dataTables.js".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/7b1284e6...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 10:33:37 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'HSE 1.0'
+    'log_id' => 151
+    'id' => '3'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '63919'
+    'REDIRECT_URL' => '/issueapps/web/assets/7b1284e6/media/js/jquery.dataTables.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/7b1284e6/media/js/jquery.dataTables.js'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566959617.127
+    'REQUEST_TIME' => 1566959617
+]
+2019-08-28 10:33:37 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/7b1284e6/media/css/jquery.dataTables.css".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/7b1284e6...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 10:33:37 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'HSE 1.0'
+    'log_id' => 151
+    'id' => '3'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '63917'
+    'REDIRECT_URL' => '/issueapps/web/assets/7b1284e6/media/css/jquery.dataTables.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/7b1284e6/media/css/jquery.dataTables.css'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566959617.124
+    'REQUEST_TIME' => 1566959617
+]
+2019-08-28 10:33:37 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/833f7004/BS3/assets/css/datatables.css".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/833f7004...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 10:33:37 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'HSE 1.0'
+    'log_id' => 151
+    'id' => '3'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '63918'
+    'REDIRECT_URL' => '/issueapps/web/assets/833f7004/BS3/assets/css/datatables.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/833f7004/BS3/assets/css/datatables.css'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566959617.125
+    'REQUEST_TIME' => 1566959617
+]
+2019-08-28 10:33:37 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/833f7004/BS3/assets/js/datatables.js".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/833f7004...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 10:33:37 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'HSE 1.0'
+    'log_id' => 151
+    'id' => '3'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '63921'
+    'REDIRECT_URL' => '/issueapps/web/assets/833f7004/BS3/assets/js/datatables.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/833f7004/BS3/assets/js/datatables.js'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566959617.128
+    'REQUEST_TIME' => 1566959617
+]
+2019-08-28 10:33:37 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/7b1284e6/media/js/jquery.dataTables.js".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/7b1284e6...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 10:33:37 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'HSE 1.0'
+    'log_id' => 151
+    'id' => '3'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '63919'
+    'REDIRECT_URL' => '/issueapps/web/assets/7b1284e6/media/js/jquery.dataTables.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/7b1284e6/media/js/jquery.dataTables.js'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566959617.35
+    'REQUEST_TIME' => 1566959617
+]
+2019-08-28 10:33:37 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/833f7004/BS3/assets/js/datatables.js".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/833f7004...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 10:33:37 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'HSE 1.0'
+    'log_id' => 151
+    'id' => '3'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '63917'
+    'REDIRECT_URL' => '/issueapps/web/assets/833f7004/BS3/assets/js/datatables.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/833f7004/BS3/assets/js/datatables.js'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566959617.451
+    'REQUEST_TIME' => 1566959617
+]
+2019-08-28 10:43:39 [::1][1][brj9vggb4dmpgak108amague41][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#4 D:\xampp\htdocs\issueapps\modules\datamaster\models\MAplikasiQuery.php(33): yii\db\ActiveQuery->one('<span class="ke...')
+#5 D:\xampp\htdocs\issueapps\modules\backlog\views\task-delivery\view.php(23): app\modules\datamaster\models\MAplikasiQuery->one()
+#6 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(326): require('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(248): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#8 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(150): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\backlog\controllers\TaskDeliveryController))
+#9 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\backlog\controllers\TaskDeliveryController))
+#10 D:\xampp\htdocs\issueapps\modules\backlog\controllers\TaskDeliveryController.php(72): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#11 [internal function]: app\modules\backlog\controllers\TaskDeliveryController->actionView('<span class="st...')
+#12 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="s...')
+#13 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#14 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+The SQL being executed was: SELECT * FROM `m_aplikasi` WHERE id = ' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Schema.php:631
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#4 D:\xampp\htdocs\issueapps\modules\datamaster\models\MAplikasiQuery.php(33): yii\db\ActiveQuery->one('<span class="ke...')
+#5 D:\xampp\htdocs\issueapps\modules\backlog\views\task-delivery\view.php(23): app\modules\datamaster\models\MAplikasiQuery->one()
+#6 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(326): require('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(248): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#8 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(150): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\backlog\controllers\TaskDeliveryController))
+#9 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\backlog\controllers\TaskDeliveryController))
+#10 D:\xampp\htdocs\issueapps\modules\backlog\controllers\TaskDeliveryController.php(72): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#11 [internal function]: app\modules\backlog\controllers\TaskDeliveryController->actionView('<span class="st...')
+#12 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="s...')
+#13 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#14 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#18 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+)
+
+2019-08-28 10:43:39 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_GET = [
+    'id' => '230'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'HSE 1.0'
+    'log_id' => 151
+    'id' => '3'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/backlog/task-delivery/create'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64058'
+    'REDIRECT_URL' => '/issueapps/web/backlog/task-delivery/view'
+    'REDIRECT_QUERY_STRING' => 'id=230'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=230'
+    'REQUEST_URI' => '/issueapps/web/backlog/task-delivery/view?id=230'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566960219.259
+    'REQUEST_TIME' => 1566960219
+]
+2019-08-28 10:45:06 [::1][1][brj9vggb4dmpgak108amague41][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#4 D:\xampp\htdocs\issueapps\modules\datamaster\models\MAplikasiQuery.php(33): yii\db\ActiveQuery->one('<span class="ke...')
+#5 D:\xampp\htdocs\issueapps\modules\backlog\views\task-delivery\view.php(23): app\modules\datamaster\models\MAplikasiQuery->one()
+#6 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(326): require('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(248): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#8 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(150): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\backlog\controllers\TaskDeliveryController))
+#9 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\backlog\controllers\TaskDeliveryController))
+#10 D:\xampp\htdocs\issueapps\modules\backlog\controllers\TaskDeliveryController.php(72): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#11 [internal function]: app\modules\backlog\controllers\TaskDeliveryController->actionView('<span class="st...')
+#12 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="s...')
+#13 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#14 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+The SQL being executed was: SELECT * FROM `m_aplikasi` WHERE id = ' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Schema.php:631
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#4 D:\xampp\htdocs\issueapps\modules\datamaster\models\MAplikasiQuery.php(33): yii\db\ActiveQuery->one('<span class="ke...')
+#5 D:\xampp\htdocs\issueapps\modules\backlog\views\task-delivery\view.php(23): app\modules\datamaster\models\MAplikasiQuery->one()
+#6 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(326): require('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(248): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#8 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(150): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\backlog\controllers\TaskDeliveryController))
+#9 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\backlog\controllers\TaskDeliveryController))
+#10 D:\xampp\htdocs\issueapps\modules\backlog\controllers\TaskDeliveryController.php(72): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#11 [internal function]: app\modules\backlog\controllers\TaskDeliveryController->actionView('<span class="st...')
+#12 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="s...')
+#13 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#14 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#18 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+)
+
+2019-08-28 10:45:06 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_GET = [
+    'id' => '231'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'HSE 1.0'
+    'log_id' => 151
+    'id' => '3'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/backlog/task-delivery/create'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64084'
+    'REDIRECT_URL' => '/issueapps/web/backlog/task-delivery/view'
+    'REDIRECT_QUERY_STRING' => 'id=231'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=231'
+    'REQUEST_URI' => '/issueapps/web/backlog/task-delivery/view?id=231'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566960306.572
+    'REQUEST_TIME' => 1566960306
+]
+2019-08-28 10:46:20 [::1][1][brj9vggb4dmpgak108amague41][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#4 D:\xampp\htdocs\issueapps\modules\datamaster\models\MAplikasiQuery.php(33): yii\db\ActiveQuery->one('<span class="ke...')
+#5 D:\xampp\htdocs\issueapps\modules\backlog\views\task-delivery\view.php(23): app\modules\datamaster\models\MAplikasiQuery->one()
+#6 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(326): require('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(248): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#8 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(150): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\backlog\controllers\TaskDeliveryController))
+#9 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\backlog\controllers\TaskDeliveryController))
+#10 D:\xampp\htdocs\issueapps\modules\backlog\controllers\TaskDeliveryController.php(72): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#11 [internal function]: app\modules\backlog\controllers\TaskDeliveryController->actionView('<span class="st...')
+#12 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="s...')
+#13 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#14 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+The SQL being executed was: SELECT * FROM `m_aplikasi` WHERE id = ' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Schema.php:631
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\db\ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#4 D:\xampp\htdocs\issueapps\modules\datamaster\models\MAplikasiQuery.php(33): yii\db\ActiveQuery->one('<span class="ke...')
+#5 D:\xampp\htdocs\issueapps\modules\backlog\views\task-delivery\view.php(23): app\modules\datamaster\models\MAplikasiQuery->one()
+#6 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(326): require('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(248): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#8 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\View.php(150): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\backlog\controllers\TaskDeliveryController))
+#9 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\backlog\controllers\TaskDeliveryController))
+#10 D:\xampp\htdocs\issueapps\modules\backlog\controllers\TaskDeliveryController.php(72): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#11 [internal function]: app\modules\backlog\controllers\TaskDeliveryController->actionView('<span class="st...')
+#12 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="s...')
+#13 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#14 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#18 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+)
+
+2019-08-28 10:46:20 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_GET = [
+    'id' => '231'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'HSE 1.0'
+    'log_id' => 151
+    'id' => '3'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/backlog/task-delivery/create'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64093'
+    'REDIRECT_URL' => '/issueapps/web/backlog/task-delivery/view'
+    'REDIRECT_QUERY_STRING' => 'id=231'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=231'
+    'REQUEST_URI' => '/issueapps/web/backlog/task-delivery/view?id=231'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566960380.672
+    'REQUEST_TIME' => 1566960380
+]
+2019-08-28 11:05:08 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/7b1284e6/media/css/jquery.dataTables.css".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/7b1284e6...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 11:05:07 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Coaching'
+    'log_id' => 151
+    'id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64313'
+    'REDIRECT_URL' => '/issueapps/web/assets/7b1284e6/media/css/jquery.dataTables.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/7b1284e6/media/css/jquery.dataTables.css'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566961507.961
+    'REQUEST_TIME' => 1566961507
+]
+2019-08-28 11:05:08 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/833f7004/BS3/assets/css/datatables.css".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/833f7004...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 11:05:07 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Coaching'
+    'log_id' => 151
+    'id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64314'
+    'REDIRECT_URL' => '/issueapps/web/assets/833f7004/BS3/assets/css/datatables.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/833f7004/BS3/assets/css/datatables.css'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566961507.963
+    'REQUEST_TIME' => 1566961507
+]
+2019-08-28 11:05:08 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/7b1284e6/media/js/jquery.dataTables.js".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/7b1284e6...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 11:05:07 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Coaching'
+    'log_id' => 151
+    'id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64318'
+    'REDIRECT_URL' => '/issueapps/web/assets/7b1284e6/media/js/jquery.dataTables.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/7b1284e6/media/js/jquery.dataTables.js'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566961507.969
+    'REQUEST_TIME' => 1566961507
+]
+2019-08-28 11:05:08 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/833f7004/BS3/assets/js/datatables.js".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/833f7004...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 11:05:07 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Coaching'
+    'log_id' => 151
+    'id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64315'
+    'REDIRECT_URL' => '/issueapps/web/assets/833f7004/BS3/assets/js/datatables.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/833f7004/BS3/assets/js/datatables.js'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566961507.967
+    'REQUEST_TIME' => 1566961507
+]
+2019-08-28 11:08:57 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/833f7004/BS3/assets/js/datatables.js".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/833f7004...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 11:08:57 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Coaching'
+    'log_id' => 151
+    'id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64374'
+    'REDIRECT_URL' => '/issueapps/web/assets/833f7004/BS3/assets/js/datatables.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/833f7004/BS3/assets/js/datatables.js'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566961737.635
+    'REQUEST_TIME' => 1566961737
+]
+2019-08-28 11:08:57 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/7b1284e6/media/js/jquery.dataTables.js".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/7b1284e6...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 11:08:57 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Coaching'
+    'log_id' => 151
+    'id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64372'
+    'REDIRECT_URL' => '/issueapps/web/assets/7b1284e6/media/js/jquery.dataTables.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/7b1284e6/media/js/jquery.dataTables.js'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566961737.635
+    'REQUEST_TIME' => 1566961737
+]
+2019-08-28 11:08:57 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/7b1284e6/media/css/jquery.dataTables.css".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/7b1284e6...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 11:08:57 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Coaching'
+    'log_id' => 151
+    'id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64370'
+    'REDIRECT_URL' => '/issueapps/web/assets/7b1284e6/media/css/jquery.dataTables.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/7b1284e6/media/css/jquery.dataTables.css'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566961737.626
+    'REQUEST_TIME' => 1566961737
+]
+2019-08-28 11:08:57 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/833f7004/BS3/assets/css/datatables.css".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/833f7004...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 11:08:57 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Coaching'
+    'log_id' => 151
+    'id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64371'
+    'REDIRECT_URL' => '/issueapps/web/assets/833f7004/BS3/assets/css/datatables.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/833f7004/BS3/assets/css/datatables.css'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566961737.627
+    'REQUEST_TIME' => 1566961737
+]
+2019-08-28 11:08:58 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/7b1284e6/media/js/jquery.dataTables.js".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/7b1284e6...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 11:08:57 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Coaching'
+    'log_id' => 151
+    'id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64372'
+    'REDIRECT_URL' => '/issueapps/web/assets/7b1284e6/media/js/jquery.dataTables.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/7b1284e6/media/js/jquery.dataTables.js'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566961737.991
+    'REQUEST_TIME' => 1566961737
+]
+2019-08-28 11:08:58 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/833f7004/BS3/assets/js/datatables.js".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/833f7004...', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 11:08:58 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Coaching'
+    'log_id' => 151
+    'id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/done'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64370'
+    'REDIRECT_URL' => '/issueapps/web/assets/833f7004/BS3/assets/js/datatables.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/assets/833f7004/BS3/assets/js/datatables.js'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566961738.101
+    'REQUEST_TIME' => 1566961738
+]
+2019-08-28 11:41:54 [::1][1][brj9vggb4dmpgak108amague41][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\system\models\TaskDelivery' not found' in D:\xampp\htdocs\issueapps\modules\system\models\base\MAplikasi.php:62
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-08-28 11:41:54 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Sintesis Mobile and Web'
+    'log_id' => 151
+    'id' => '4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/system/m-aplikasi'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64863'
+    'REDIRECT_URL' => '/issueapps/web/system/m-aplikasi/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/system/m-aplikasi/create'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566963714.172
+    'REQUEST_TIME' => 1566963714
+]
+2019-08-28 11:44:08 [::1][1][brj9vggb4dmpgak108amague41][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\system\models\MSprint' not found' in D:\xampp\htdocs\issueapps\modules\system\views\m-aplikasi\_formTaskDelivery.php:31
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-08-28 11:44:08 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Sintesis Mobile and Web'
+    'log_id' => 151
+    'id' => '4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/system/m-aplikasi'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64879'
+    'REDIRECT_URL' => '/issueapps/web/system/m-aplikasi/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/system/m-aplikasi/create'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566963848.531
+    'REQUEST_TIME' => 1566963848
+]
+2019-08-28 11:44:52 [::1][1][brj9vggb4dmpgak108amague41][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\system\models\MPic' not found' in D:\xampp\htdocs\issueapps\modules\system\views\m-aplikasi\_formTaskDelivery.php:41
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-08-28 11:44:52 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Sintesis Mobile and Web'
+    'log_id' => 151
+    'id' => '4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/system/m-aplikasi'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64889'
+    'REDIRECT_URL' => '/issueapps/web/system/m-aplikasi/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/system/m-aplikasi/create'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566963892.522
+    'REQUEST_TIME' => 1566963892
+]
+2019-08-28 11:45:15 [::1][1][brj9vggb4dmpgak108amague41][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\system\models\MPlatform' not found' in D:\xampp\htdocs\issueapps\modules\system\views\m-aplikasi\_formTaskDelivery.php:51
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-08-28 11:45:15 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Sintesis Mobile and Web'
+    'log_id' => 151
+    'id' => '4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/system/m-aplikasi'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64902'
+    'REDIRECT_URL' => '/issueapps/web/system/m-aplikasi/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/system/m-aplikasi/create'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566963915.782
+    'REQUEST_TIME' => 1566963915
+]
+2019-08-28 11:45:32 [::1][1][brj9vggb4dmpgak108amague41][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\system\models\MModelMenu' not found' in D:\xampp\htdocs\issueapps\modules\system\views\m-aplikasi\_formTaskDelivery.php:61
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-08-28 11:45:32 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Sintesis Mobile and Web'
+    'log_id' => 151
+    'id' => '4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/system/m-aplikasi'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64914'
+    'REDIRECT_URL' => '/issueapps/web/system/m-aplikasi/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/system/m-aplikasi/create'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566963932.396
+    'REQUEST_TIME' => 1566963932
+]
+2019-08-28 11:45:47 [::1][1][brj9vggb4dmpgak108amague41][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\system\models\MStatus' not found' in D:\xampp\htdocs\issueapps\modules\system\views\m-aplikasi\_formTaskDelivery.php:73
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-08-28 11:45:47 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Sintesis Mobile and Web'
+    'log_id' => 151
+    'id' => '4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/system/m-aplikasi'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64925'
+    'REDIRECT_URL' => '/issueapps/web/system/m-aplikasi/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/system/m-aplikasi/create'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566963947.372
+    'REQUEST_TIME' => 1566963947
+]
+2019-08-28 11:46:07 [::1][1][brj9vggb4dmpgak108amague41][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\system\models\MPrioritas' not found' in D:\xampp\htdocs\issueapps\modules\system\views\m-aplikasi\_formTaskDelivery.php:83
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-08-28 11:46:07 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Sintesis Mobile and Web'
+    'log_id' => 151
+    'id' => '4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/system/m-aplikasi'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '64940'
+    'REDIRECT_URL' => '/issueapps/web/system/m-aplikasi/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/system/m-aplikasi/create'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566963967.461
+    'REQUEST_TIME' => 1566963967
+]
+2019-08-28 11:48:53 [::1][1][brj9vggb4dmpgak108amague41][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "system/m-pic".' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('system/m-pic', Array)
+#1 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\xampp\htdocs\issueapps\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\issueapps\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-08-28 11:48:53 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Sintesis Mobile and Web'
+    'log_id' => 151
+    'id' => '4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '65002'
+    'REDIRECT_URL' => '/issueapps/web/system/m-pic'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/issueapps/web/system/m-pic'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566964133.291
+    'REQUEST_TIME' => 1566964133
+]
+2019-08-28 11:49:48 [::1][1][brj9vggb4dmpgak108amague41][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\system\models\TaskDelivery' not found' in D:\xampp\htdocs\issueapps\modules\system\models\base\MPic.php:62
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-08-28 11:49:48 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Sintesis Mobile and Web'
+    'log_id' => 151
+    'id' => '4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/system/m-pic'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '65029'
+    'REDIRECT_URL' => '/issueapps/web/system/m-pic/update'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/issueapps/web/system/m-pic/update?id=1'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566964188.341
+    'REQUEST_TIME' => 1566964188
+]
+2019-08-28 11:50:15 [::1][1][brj9vggb4dmpgak108amague41][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\system\models\TaskDelivery' not found' in D:\xampp\htdocs\issueapps\modules\system\models\base\MPic.php:62
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-08-28 11:50:15 [::1][1][brj9vggb4dmpgak108amague41][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'brj9vggb4dmpgak108amague41'
+    '_csrf' => 'dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6\";}'
+    '_identity' => '2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'project' => 'Sintesis Mobile and Web'
+    'log_id' => 151
+    'id' => '4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/issueapps/web/system/m-pic'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=brj9vggb4dmpgak108amague41; _csrf=dc73cb36a291f0fb9bf297b4ce43b41f7e84759cc4e5b6e765c4ee9d83a195b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222RK5OqHNruRkQFiNPWVSgJ3LFONqwFD6%22%3B%7D; _identity=2463f0842809b2735ced935f6378b5aa01cb56558b5ce9b7c466857e389af454a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Git\\cmd;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;C:\\adb;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\m15t34m\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\m15t34m\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\m15t34m\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Java\\jdk-11.0.1\\bin;C:\\Program Files\\JetBrains\\DataGrip 2019.1\\bin;;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Users\\m15t34m\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.37'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/issueapps/web/index.php'
+    'REMOTE_PORT' => '65034'
+    'REDIRECT_URL' => '/issueapps/web/system/m-pic/update'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/issueapps/web/system/m-pic/update?id=1'
+    'SCRIPT_NAME' => '/issueapps/web/index.php'
+    'PHP_SELF' => '/issueapps/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1566964215.853
+    'REQUEST_TIME' => 1566964215
+]

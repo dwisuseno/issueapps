@@ -73,7 +73,7 @@ AppAsset::register($this);
               
               <div class="input-group margin">
                 <div class="input-group-btn">
-                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Select Modul
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><?= $_SESSION["project"] ?>
                     <span class="fa fa-caret-down"></span></button>
                   <ul class="dropdown-menu">
                   <?php 
@@ -168,7 +168,7 @@ AppAsset::register($this);
                           <li><a href="<?= Url::home()?>system/dsis-system-user"><i class="fa fa-circle-o"></i> User</a></li>
                           <li><a href="<?= Url::home()?>project/m-modul"><i class="fa fa-circle-o"></i> Modul</a></li>
                           <li><a href="<?= Url::home()?>system/dsis-system-menu"><i class="fa fa-circle-o"></i> Menu</a></li>
-                          <li><a href="<?= Url::home()?>project/m-project"><i class="fa fa-circle-o"></i> Project</a></li>
+                          <li><a href="<?= Url::home()?>project/m-project"><i class="fa fa-check"></i> <span>List Project</span></a></li>
                         </ul>
                       </li>
                       <li class="treeview menu">
@@ -179,17 +179,17 @@ AppAsset::register($this);
                           </span>
                         </a>
                         <ul class="treeview-menu">
-                          <li><a href="<?= Url::home()?>system"><i class="fa fa-circle-o"></i> List Developer</a></li>
-                          <li><a href="<?= Url::home()?>system/dsis-system-user"><i class="fa fa-circle-o"></i> List Prioritas</a></li>
-                          <li><a href="<?= Url::home()?>system/dsis-system-modul"><i class="fa fa-circle-o"></i> List Aplikasi</a></li>
-                          <li><a href="<?= Url::home()?>system/dsis-system-menu"><i class="fa fa-circle-o"></i> List Platform</a></li>
-                          <li><a href="<?= Url::home()?>system/dsis-system-menu"><i class="fa fa-circle-o"></i> List Menu</a></li>
+                          <li><a href="<?= Url::home()?>system/m-pic"><i class="fa fa-circle-o"></i> List Developer</a></li>
+                          <li><a href="<?= Url::home()?>system/m-prioritas"><i class="fa fa-circle-o"></i> List Prioritas</a></li>
+                          <li><a href="<?= Url::home()?>system/m-aplikasi"><i class="fa fa-circle-o"></i> List Aplikasi</a></li>
+                          <li><a href="<?= Url::home()?>system/m-plattform"><i class="fa fa-circle-o"></i> List Platform</a></li>
+                          <li><a href="<?= Url::home()?>system/m-modul-menu"><i class="fa fa-circle-o"></i> List Menu</a></li>
                         </ul>
                       </li>
                   <?php } ?>
                     <li class="header">Let's Scrum it!</li>
                     <li><a href="<?= Url::home()?>dashboard"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
-                    <li><a href="<?= Url::home()?>frontend/m-project"><i class="fa fa-check"></i> <span>List Project</span></a></li>
+                    
                     <li><a href="<?= Url::home()?>backlog"><i class="fa fa-square-o"></i> <span>Back Log</span></a></li>
                     <li><a href="<?= Url::home()?>sprintnow"><i class="fa fa-list-alt"></i> <span>Sprint Now</span></a></li>
                     <li><a href="<?= Url::home()?>confirmation"><i class="fa fa-tasks"></i> <span>Need Confirmation</span></a></li>
