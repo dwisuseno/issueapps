@@ -41,21 +41,21 @@ class MModulController extends Controller
 
     public function actionChangemodul($id){
         $model = $this->findModel($id);
-        $GLOBALS['project'] = null;
-        var_dump($id);
-        exit();
+        $GLOBALS['project'] = $model->name;
+        $_SESSION["project"] = $model->name;
+        // print_r($_SESSION);
+        // var_dump($id);
+        // exit();
 
-        if ($model->loadAll(Yii::$app->request->post())) {
-            $GLOBALS['project'] = $model->name;
+        if ($GLOBALS['project']) {
+            // $GLOBALS['project'] = $model->name;
             $model->saveAll();
-            var_dump($id);
-            return $id;
+            // var_dump($id);
+            return $this->redirect(['index']);
         } else {
-            var_dump($id);
-            exit();
-            return $this->render('update', [
-                'model' => $model,
-            ]);
+            // var_dump('tidak berubah');
+            // exit();
+            return $this->redirect(['index']);
         }
     }
 
