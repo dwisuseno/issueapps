@@ -41,22 +41,14 @@ class MModulController extends Controller
 
     public function actionChangemodul($id){
         $model = $this->findModel($id);
-        $GLOBALS['project'] = $model->name;
+        // $GLOBALS['project'] = $model->name;
         $_SESSION["project"] = $model->name;
+        $_SESSION["id"] = $id;
         // print_r($_SESSION);
         // var_dump($id);
         // exit();
-
-        if ($GLOBALS['project']) {
-            // $GLOBALS['project'] = $model->name;
-            $model->saveAll();
-            // var_dump($id);
-            return $this->redirect(['index']);
-        } else {
-            // var_dump('tidak berubah');
-            // exit();
-            return $this->redirect(['index']);
-        }
+        return $this->goBack();
+        
     }
 
     /**

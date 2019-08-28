@@ -70,6 +70,7 @@ AppAsset::register($this);
             <div class="navbar-header">
               
               <?php if(Yii::$app->user->identity != null){ ?>
+              
               <div class="input-group margin">
                 <div class="input-group-btn">
                   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Select Modul
@@ -187,9 +188,7 @@ AppAsset::register($this);
                       </li>
                   <?php } ?>
                     <li class="header">Let's Scrum it!</li>
-                    <li><a href="<?= Url::home()?>dashboard"><i class="fa fa-dashboard"></i> <span>Dashboard</span><span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
-            </span></a></li>
+                    <li><a href="<?= Url::home()?>dashboard"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
                     <li><a href="<?= Url::home()?>frontend/m-project"><i class="fa fa-check"></i> <span>List Project</span></a></li>
                     <li><a href="<?= Url::home()?>backlog"><i class="fa fa-square-o"></i> <span>Back Log</span></a></li>
                     <li><a href="<?= Url::home()?>sprintnow"><i class="fa fa-list-alt"></i> <span>Sprint Now</span></a></li>
@@ -200,7 +199,9 @@ AppAsset::register($this);
                       if(Yii::$app->user->identity != null){ 
                         $sprint_now = MSprint::find()->where('kode = 1')->one(); ?>
                         <li><a href="<?= Url::home()?>">Sprint Saat Ini: <?= $sprint_now->name ?></a></li>
-                        <li class="header">Modul: <?php echo $_SESSION["project"] ?></li>
+                        <li><a href="<?= Url::home()?>"><?php echo $_SESSION["project"] ?><span class="pull-right-container">
+              <small class="label pull-right bg-green">Current Modul</small>
+            </span></li>
                       <?php } else {?>
 
                       <?php } ?>
