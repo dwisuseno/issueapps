@@ -1,0 +1,1 @@
+2017-06-14 09:40:56: imagepng(img/qrcodesimper/Dwi Al Aji S.png): failed to open stream: No such file or directory2017-06-14 09:41:22: imagepng(img/qrcodesimper/Dwi Al Aji S.png): failed to open stream: No such file or directory

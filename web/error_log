@@ -1,0 +1,112 @@
+[11-Sep-2017 14:20:43 Asia/Brunei] PHP Fatal error:  Class 'DsisMasterSeriesUnit' not found in /home/u5608260/public_html/portal/modules/master/views/dsis-master-unit/_form.php on line 63
+[16-Sep-2017 17:34:04 Asia/Brunei] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/u5608260/public_html/portal/controllers/SiteController.php on line 355
+[28-Sep-2017 14:10:36] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:10:36] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:10:46] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:10:46] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:10:47] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:10:47] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:10:48] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:10:48] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:10:48] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:10:48] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:10:49] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:10:49] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:00] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:00] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:04] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:04] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:05] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:05] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:20] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:20] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:39] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:39] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:41] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:41] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:43] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:11:43] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:12:03] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:12:03] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:12:22] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:12:22] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:12:29] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:12:29] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:12:31] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:12:31] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:12:39] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:12:39] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:04] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:04] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:14] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:14] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:16] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:16] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:18] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:18] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:39] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:39] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:41] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:41] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:43] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:43] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:52] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:52] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:57] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:13:57] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:14:35] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:14:35] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:14:36] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:14:36] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:14:38] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:14:38] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:14:39] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:14:39] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:30] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:30] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:41] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:41] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:42] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:42] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:43] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:43] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:44] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:44] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:45] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:45] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:46] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:48] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:49] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:21:49] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:27:13] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:27:13] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:27:14] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:27:14] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:45:08] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:45:08] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:45:10] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:45:10] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:45:17] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:45:19] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:47:06] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:47:06] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:47:06] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:47:06] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:47:57] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:47:57] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:48:02] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 14:48:02] PHP Parse error:  syntax error, unexpected T_STRING in /home/u5608260/public_html/portal/web/index.php on line 12
+[28-Sep-2017 06:50:10 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'A non-empty PSR-4 prefix must end with a namespace separator.' in /home/u5608260/public_html/portal/vendor/composer/ClassLoader.php:226
+Stack trace:
+#0 /home/u5608260/public_html/portal/vendor/composer/autoload_real.php(39): Composer\Autoload\ClassLoader->setPsr4('fedemotta\\datat...', Array)
+#1 /home/u5608260/public_html/portal/vendor/autoload.php(7): ComposerAutoloaderInit7580d18b31c8c463e80d32d9465c97c9::getLoader()
+#2 /home/u5608260/public_html/portal/web/index.php(7): require('/home/u5608260/...')
+#3 {main}
+  thrown in /home/u5608260/public_html/portal/vendor/composer/ClassLoader.php on line 226
+[28-Sep-2017 06:50:12 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'A non-empty PSR-4 prefix must end with a namespace separator.' in /home/u5608260/public_html/portal/vendor/composer/ClassLoader.php:226
+Stack trace:
+#0 /home/u5608260/public_html/portal/vendor/composer/autoload_real.php(39): Composer\Autoload\ClassLoader->setPsr4('fedemotta\\datat...', Array)
+#1 /home/u5608260/public_html/portal/vendor/autoload.php(7): ComposerAutoloaderInit7580d18b31c8c463e80d32d9465c97c9::getLoader()
+#2 /home/u5608260/public_html/portal/web/index.php(7): require('/home/u5608260/...')
+#3 {main}
+  thrown in /home/u5608260/public_html/portal/vendor/composer/ClassLoader.php on line 226
