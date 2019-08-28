@@ -21,10 +21,26 @@ $this->params['breadcrumbs'][] = $this->title;
 $sprint = MSprint::find()->where('id = '.$model->id_sprint)->one()->name;
 $platform = MPlatform::find()->where('id = '.$model->id_platform)->one()->name;
 $aplikasi = MAplikasi::find()->where('id = '.$model->id_aplikasi)->one()->name;
-$prioritas = MPrioritas::find()->where('id = '.$model->id_prioritas)->one()->name;
+if($model->id_prioritas != NULL){
+  $prioritas = MPrioritas::find()->where('id = '.$model->id_prioritas)->one()->name;
+} else {
+  $prioritas = "Belum Diisi";
+}
+//$prioritas = MPrioritas::find()->where('id = '.$model->id_prioritas)->one()->name;
 $status = MStatus::find()->where('id = '.$model->id_status)->one()->name;
-$modulmenu = MModelMenu::find()->where('id = '.$model->id_model_menu)->one()->name;
-$pic = MPic::find()->where('id = '.$model->id_pic)->one()->name;
+if($model->id_model_menu != NULL){
+  $modulmenu = MModelMenu::find()->where('id = '.$model->id_model_menu)->one()->name;
+} else {
+  $modulmenu = "Belum Diisi";
+}
+
+if($model->id_pic != NULL){
+  $pic = MPic::find()->where('id = '.$model->id_pic)->one()->name;
+} else {
+  $pic = "Belum Diisi";
+}
+//$modulmenu = MModelMenu::find()->where('id = '.$model->id_model_menu)->one()->name;
+//$pic = MPic::find()->where('id = '.$model->id_pic)->one()->name;
 ?>
 <div class="task-delivery-view">
 
@@ -108,7 +124,7 @@ $pic = MPic::find()->where('id = '.$model->id_pic)->one()->name;
                 <dd><?= $aplikasi ?></dd>
                 <dt>Platform</dt>
                 <dd><?= $platform ?></dd>
-                <dt>Modul / Menu</dt>
+                <dt>Menu</dt>
                 <dd><?= $modulmenu ?></dd>
                 <dt>Issue</dt>
                 <dd><?= $model->issue ?></dd>

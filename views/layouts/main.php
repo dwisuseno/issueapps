@@ -200,7 +200,7 @@ AppAsset::register($this);
                         $sprint_now = MSprint::find()->where('kode = 1')->one(); ?>
                         <li><a href="<?= Url::home()?>">Sprint Saat Ini: <?= $sprint_now->name ?></a></li>
                         <li><a href="<?= Url::home()?>"><?php echo $_SESSION["project"] ?><span class="pull-right-container">
-              <small class="label pull-right bg-green">Current Modul</small>
+              <small class="label pull-right bg-green">Modul</small>
             </span></li>
                       <?php } else {?>
 

@@ -87,7 +87,7 @@ class TaskDeliveryController extends Controller
             $model->id_status = 1;
             $model->id_modul = $_SESSION['id']; 
             $model->save(false);
-            return $this->redirect(['view', 'id' => $model->id]);
+            return $this->redirect(['index']);
         } else {
             return $this->render('create', [
                 'model' => $model,
