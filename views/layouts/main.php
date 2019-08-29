@@ -65,14 +65,13 @@ AppAsset::register($this);
           <!-- logo for regular state and mobile devices -->
           <span class="logo-lg"><b>Mining</b> Tech</span>
         </a>
-        <nav class="navbar navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav">
               
               <?php if(Yii::$app->user->identity != null){ ?>
               
               <div class="input-group margin">
-                <div class="input-group-btn">
                   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><?= $_SESSION["project"] ?>
                     <span class="fa fa-caret-down"></span></button>
                   <ul class="dropdown-menu">
@@ -90,17 +89,11 @@ AppAsset::register($this);
                     ?>
                     
                   </ul>
-                </div>
               </div>
               <?php } ?>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            </ul>
             
-            <!-- /.navbar-collapse -->
-            <!-- Navbar Right Menu -->
-            <div class="navbar-custom-menu">
-              <ul class="nav navbar-nav">
+            <ul class='nav navbar-nav navbar-right'>
                 <!-- User Account Menu -->
                 <?php if(Yii::$app->user->identity != null){ ?>
                 <li class="dropdown user user-menu">
@@ -135,8 +128,7 @@ AppAsset::register($this);
                   </ul>
                 </li>
                 <?php } ?>
-              </ul>
-            </div>
+            </ul>
             <!-- /.navbar-custom-menu -->
           </div>
           <!-- /.container-fluid -->
@@ -232,7 +224,7 @@ AppAsset::register($this);
 
   
     <footer class="main-footer">
-        <div class="container">
+        <div class="container-fluid">
             <div class="pull-right hidden-xs">
                 <b>Version</b> 1.0.0
             </div>

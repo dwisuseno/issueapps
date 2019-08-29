@@ -6,7 +6,7 @@ return [
     'class' => 'yii\db\Connection',
     'dsn' => 'mysql:host=localhost;dbname=db_scrum_management_dev',
     'username' => 'root',
-    'password' => '',
+    'password' => 'toor',
     'charset' => 'utf8',
 ];
 
