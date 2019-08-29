@@ -57,6 +57,10 @@ use app\modules\sprintnow\models\TaskDelivery;
             return $dataProvider;
         }
 
+        if($_SESSION['project'] != 'Default'){
+            $query->andWhere('id_modul = '.$_SESSION['id'].'');
+        }
+
         $query->andWhere('id_status = 2');
         $query->andWhere('deleted = 0');
         $query->orderBy(['id_prioritas' => SORT_DESC]);

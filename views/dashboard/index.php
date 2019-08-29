@@ -180,7 +180,13 @@ date_default_timezone_set('Asia/Bangkok');
 
                   <div class="description-block border-right">
 
-                    <span class="description-percentage text-green"> <?= round((int)$totalWebTask/((int)$totalWebTask+(int)$totalMobileTask+(int)$totalRfidTask),2)*100 ?> %</span>
+                    <span class="description-percentage text-green"> <?php 
+                    if(((int)$totalWebTask+(int)$totalMobileTask+(int)$totalRfidTask) == 0){
+                      echo "0";
+                    } else {
+                      round((int)$totalWebTask/((int)$totalWebTask+(int)$totalMobileTask+(int)$totalRfidTask),2)*100;
+                    }
+                    ?> %</span>
 
                     <h5 class="description-header"><?php if((int)$totalWebTask!=0){ echo $totalWebTask;} else { echo "0";} ?></h5>
 
@@ -198,7 +204,15 @@ date_default_timezone_set('Asia/Bangkok');
 
                   <div class="description-block border-right">
 
-                    <span class="description-percentage text-yellow"> <?= round((int)$totalMobileTask/((int)$totalWebTask+(int)$totalMobileTask+(int)$totalRfidTask),2)*100 ?> %</span>
+                    <span class="description-percentage text-yellow"> <?php 
+                     if(((int)$totalWebTask+(int)$totalMobileTask+(int)$totalRfidTask) == 0){
+                      echo "0";
+                    } else {
+                      round((int)$totalMobileTask/((int)$totalWebTask+(int)$totalMobileTask+(int)$totalRfidTask),2)*100;
+                    }
+                    
+                    
+                    ?> %</span>
 
                     <h5 class="description-header"><?= $totalMobileTask ?></h5>
 
@@ -216,7 +230,13 @@ date_default_timezone_set('Asia/Bangkok');
 
                   <div class="description-block border-right">
 
-                    <span class="description-percentage text-green"><?= round((int)$totalRfidTask/((int)$totalWebTask+(int)$totalMobileTask+(int)$totalRfidTask),2)*100 ?> %</span>
+                    <span class="description-percentage text-green"><?php
+                     if(((int)$totalWebTask+(int)$totalMobileTask+(int)$totalRfidTask) == 0){
+                      echo "0";
+                    } else {
+                      round((int)$totalRfidTask/((int)$totalWebTask+(int)$totalMobileTask+(int)$totalRfidTask),2)*100;
+                    }
+                     ?> %</span>
 
                     <h5 class="description-header"><?= $totalRfidTask ?></h5>
 

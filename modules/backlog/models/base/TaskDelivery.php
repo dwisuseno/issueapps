@@ -49,7 +49,7 @@ class TaskDelivery extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id_sprint', 'id_aplikasi', 'id_pic', 'id_platform', 'id_model_menu', 'is_tested_by_vendor', 'is_tested_by_owner', 'id_status', 'id_prioritas', 'estimated_day'], 'integer'],
+            [['id_sprint','id_modul', 'id_aplikasi', 'id_pic', 'id_platform', 'id_model_menu', 'is_tested_by_vendor', 'is_tested_by_owner', 'id_status', 'id_prioritas', 'estimated_day'], 'integer'],
             [['issue'], 'string', 'max' => 800],
              // [['start_date', 'end_date'], 'date', 'format' => 'Y-m-d'],
             [['actual_finish_date', 'deployment', 'keterangan', 'updated_at', 'created_at', 'deleted', 'created_by', 'updated_by'], 'string', 'max' => 255]
@@ -72,10 +72,11 @@ class TaskDelivery extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'id_sprint' => 'Sprint',
+            'id_modul' => 'Modul',
             'id_aplikasi' => 'Aplikasi',
             'id_pic' => 'Assign Developer',
             'id_platform' => 'Platform',
-            'id_model_menu' => 'Modul / Menu',
+            'id_model_menu' => 'Menu',
             'is_tested_by_vendor' => 'Tested By FUSI',
             'is_tested_by_owner' => 'Tested By BC',
             'id_status' => 'Status',

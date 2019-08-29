@@ -66,7 +66,7 @@ use kartik\form\ActiveForm;
                     <div class="col-md-6">
                         <?= $form->field($model, 'id_model_menu')->widget(\kartik\widgets\Select2::classname(), [
                             'data' => \yii\helpers\ArrayHelper::map(\app\modules\datamaster\models\MModelMenu::find()->orderBy('id')->asArray()->all(), 'id', 'name'),
-                            'options' => ['placeholder' => 'Choose Model/Menu'],
+                            'options' => ['placeholder' => 'Choose Menu'],
                             'pluginOptions' => [
                                 'allowClear' => true
                             ],
