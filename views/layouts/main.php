@@ -129,7 +129,6 @@ AppAsset::register($this);
                       </div>
                       <div class="pull-right">
                         <a href="<?= Url::home()?>site/logout" class="btn btn-default btn-flat">Logout</a>
-                        
                       </div>
                     </li>
                   </ul>
