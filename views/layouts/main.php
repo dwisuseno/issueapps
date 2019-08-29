@@ -57,7 +57,7 @@ AppAsset::register($this);
     <?php NavBar::begin();NavBar::end(); ?>
     </div>
 
-    <header class="main-header">
+    <header class="main-header navbar-fixed-top">
         <!-- Logo -->
         <a href="<?= Url::home()?>" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
@@ -65,7 +65,7 @@ AppAsset::register($this);
           <!-- logo for regular state and mobile devices -->
           <span class="logo-lg"><b>Mining</b> Tech</span>
         </a>
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse ">
           <div class="container-fluid">
             <ul class="nav navbar-nav">
               
@@ -95,7 +95,8 @@ AppAsset::register($this);
             
             <ul class='nav navbar-nav navbar-right'>
                 <!-- User Account Menu -->
-                <?php if(Yii::$app->user->identity != null){ ?>
+                <?php $user = Yii::$app->user->identity ?>
+                <?php if($user != null){ ?>
                 <li class="dropdown user user-menu">
                   <!-- Menu Toggle Button -->
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -109,16 +110,16 @@ AppAsset::register($this);
                     <li class="user-header">
                       <img src="<?= Url::home()?>dist/img/user.jpg" class="img-circle" alt="User Image">
                       <p>
-                        <?= Yii::$app->user->identity->name ?>
+                        <?= $user->name ?>
                       </p>
-                      <p><?= Yii::$app->user->identity->role_id ?></p>
+                      <p><?= $user->role_id ?></p>
                       
                     </li>
                     <!-- Menu Body -->
                     <!-- Menu Footer-->
                     <li class="user-footer">
                       <div class="pull-left">
-                        <a href="<?= Url::home()?>system/dsis-system-user/view-profile?id=<?= Yii::$app->user->identity->id ?>" class="btn btn-default btn-flat">Profile</a>
+                        <a href="<?= Url::home()?>system/dsis-system-user/view-profile?id=<?= $user->id ?>" class="btn btn-default btn-flat">Profile</a>
                       </div>
                       <div class="pull-right">
                         <a href="<?= Url::home()?>site/logout" class="btn btn-default btn-flat">Logout</a>
@@ -135,7 +136,7 @@ AppAsset::register($this);
         <!-- Left side column. contains the logo and sidebar -->
         
     </header>
-    <aside class="main-sidebar">
+    <aside class="main-sidebar" style="position:fixed;">
           <!-- sidebar: style can be found in sidebar.less -->
           <section class="sidebar">
             <!-- /.search form -->
