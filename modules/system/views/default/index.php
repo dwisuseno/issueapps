@@ -24,7 +24,6 @@ $this->title = 'Server Information';
       <div class="tab-content">
         <div role="tab-panel" class="tab-pane active" id="server">
           <br><br>
-
           <table class="table table-bordered">
             <tr>
               <td>No</td>
@@ -104,23 +103,7 @@ $this->title = 'Server Information';
           </div>
         </div>
           
-          <br>
-          <table class="table table-bordered">
-              <tr>
-                <td>Time</td>
-                <td>Name</td>
-                <td>Action</td>
-                <td>Details</td>
-              </tr>
-              <?php for($i=0;$i<sizeof($model);$i++){ ?>
-                <tr>
-                  <td><?= $model[$i]->time ?></td>
-                  <td><?= $model[$i]->user ?></td>
-                  <td><?= $model[$i]->activity ?></td>
-                  <td><?= $model[$i]->details ?></td>
-                </tr>
-              <?php } ?>
-          </table>
+         
         </div>
       </div>
 

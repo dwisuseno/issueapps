@@ -57,6 +57,11 @@ use app\modules\done\models\TaskDelivery;
             return $dataProvider;
         }
 
+        if(isset($_SESSION["project"])){
+            $query->andWhere('id_modul = '.$_SESSION['id'].'');
+        //echo $_SESSION["project"];
+        } 
+
         $query->andWhere('id_status = 4');
         $query->andWhere('deleted = 0');
         $query->orderBy(['id_prioritas' => SORT_DESC]);

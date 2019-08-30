@@ -56,10 +56,10 @@ use app\modules\backlog\models\TaskDelivery;
             // $query->where('0=1');
             return $dataProvider;
         }
-
-        if($_SESSION['project'] != 'Default'){
+        if(isset($_SESSION["project"])){
             $query->andWhere('id_modul = '.$_SESSION['id'].'');
-        }
+            //echo $_SESSION["project"];
+          } 
 
         $query->andWhere('id_status = 1');
         $query->andWhere('deleted = 0');

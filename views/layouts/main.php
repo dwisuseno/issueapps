@@ -162,11 +162,11 @@ AppAsset::register($this);
                           </span>
                         </a>
                         <ul class="treeview-menu">
-                          <li><a href="<?= Url::home()?>system"><i class="fa fa-circle-o"></i> System</a></li>
-                          <li><a href="<?= Url::home()?>system/dsis-system-user"><i class="fa fa-circle-o"></i> User</a></li>
-                          <li><a href="<?= Url::home()?>project/m-modul"><i class="fa fa-circle-o"></i> Modul</a></li>
-                          <li><a href="<?= Url::home()?>system/dsis-system-menu"><i class="fa fa-circle-o"></i> Menu</a></li>
-                          <li><a href="<?= Url::home()?>project/m-project"><i class="fa fa-check"></i> <span>List Project</span></a></li>
+                          
+                          <li><a href="<?= Url::home()?>system/dsis-system-user"><i class="fa fa-user-circle-o"></i> User</a></li>
+                          <li><a href="<?= Url::home()?>project/m-modul"><i class="fa fa-cube"></i> Modul</a></li>
+                          <li><a href="<?= Url::home()?>system/dsis-system-menu"><i class="fa fa-th-list"></i> Menu</a></li>
+                          <li><a href="<?= Url::home()?>project/m-project"><i class="fa fa-clipboard"></i> <span>List Project</span></a></li>
                         </ul>
                       </li>
                       <li class="treeview menu">

@@ -41,7 +41,6 @@ class MModulController extends Controller
 
     public function actionChangemodul($id){
         $model = $this->findModel($id);
-        // $GLOBALS['project'] = $model->name;
         $_SESSION["project"] = $model->name;
         $_SESSION["id"] = $id;
         // print_r($_SESSION);

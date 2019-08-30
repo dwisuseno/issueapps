@@ -57,9 +57,9 @@ use app\modules\sprintnow\models\TaskDelivery;
             return $dataProvider;
         }
 
-        if($_SESSION['project'] != 'Default'){
+        if(isset($_SESSION["project"])){
             $query->andWhere('id_modul = '.$_SESSION['id'].'');
-        }
+        } 
 
         $query->andWhere('id_status = 2');
         $query->andWhere('deleted = 0');

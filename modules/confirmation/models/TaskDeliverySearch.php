@@ -57,9 +57,10 @@ use app\modules\confirmation\models\TaskDelivery;
             return $dataProvider;
         }
 
-        if($_SESSION['project'] != 'Default'){
+        if(isset($_SESSION["project"])){
             $query->andWhere('id_modul = '.$_SESSION['id'].'');
-        }
+            //echo $_SESSION["project"];
+        } 
 
         $query->andWhere('id_status = 3');
         $query->andWhere('deleted = 0');
