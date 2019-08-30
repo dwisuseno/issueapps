@@ -71,7 +71,7 @@ class DsisSystemMenu extends \yii\db\ActiveRecord
      */
     public function getModul()
     {
-        return $this->hasOne(\app\modules\system\models\DsisSystemModul::className(), ['id' => 'modul_id']);
+        return $this->hasOne(\app\modules\project\models\MModul::className(), ['id' => 'modul_id']);
     }
     
 /**

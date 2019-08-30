@@ -18,8 +18,8 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'id', ['template' => '{input}'])->textInput(['style' => 'display:none']); ?>
 
     <?= $form->field($model, 'modul_id')->widget(\kartik\widgets\Select2::classname(), [
-        'data' => \yii\helpers\ArrayHelper::map(\app\modules\system\models\DsisSystemModul::find()->orderBy('id')->asArray()->all(), 'id', 'name'),
-        'options' => ['placeholder' => 'Choose Dsis system modul'],
+        'data' => \yii\helpers\ArrayHelper::map(\app\modules\project\models\MModul::find()->orderBy('id')->asArray()->all(), 'id', 'name'),
+        'options' => ['placeholder' => 'Choose Modul'],
         'pluginOptions' => [
             'allowClear' => true
         ],
