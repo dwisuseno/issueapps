@@ -52,6 +52,17 @@ use kartik\form\ActiveForm;
                     </div>                  
                 </div>
                 <div class="row">
+                    <div class="col-sm-6">
+                        <?= $form->field($model, 'id_sprint')->widget(\kartik\widgets\Select2::classname(), [
+                            'data' => \yii\helpers\ArrayHelper::map(\app\modules\datamaster\models\MSprint::find()->orderBy('id')->asArray()->all(), 'id', 'name'),
+                            'options' => ['placeholder' => 'Select Sprint'],
+                            'pluginOptions' => [
+                                'allowClear' => true
+                            ],
+                        ]); ?>
+                    </div>                  
+                </div>
+                <div class="row">
                     <div class="col-md-6">
                         <?= $form->field($model, 'id_platform')->widget(\kartik\widgets\Select2::classname(), [
                             'data' => \yii\helpers\ArrayHelper::map(\app\modules\datamaster\models\MPlatform::find()->orderBy('id')->asArray()->all(), 'id', 'name'),
@@ -133,6 +144,7 @@ use kartik\form\ActiveForm;
                         ?>
                     </div>
                 </div>
+                
                 <div class="row">
                     <div class="col-md-6">
                         <?= $form->field($model, 'keterangan')->textarea(['rows' => 6]) ?>

@@ -83,7 +83,7 @@ class TaskDeliveryController extends Controller
 
         if ($model->loadAll(Yii::$app->request->post())) {
             $sprint_id = MSprint::find()->where('kode = 1')->one();
-            $model->id_sprint = $sprint_id->id;
+            // $model->id_sprint = $sprint_id->id;
             $model->id_status = 1;
             $model->id_modul = $_SESSION['id']; 
             $model->save(false);

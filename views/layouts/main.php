@@ -196,7 +196,7 @@ AppAsset::register($this);
                       
                       if(Yii::$app->user->identity != null){ 
                         $sprint_now = MSprint::find()->where('kode = 1')->one(); ?>
-                        <li><a href="<?= Url::home()?>">Sprint Saat Ini: <?= $sprint_now->name ?></a></li>
+                        
                         <li><a href="<?= Url::home()?>"><?php 
                         if(isset($_SESSION["project"])){
                             echo $_SESSION["project"];

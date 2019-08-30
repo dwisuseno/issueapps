@@ -39,8 +39,7 @@ if($model->id_pic != NULL){
 } else {
   $pic = "Belum Diisi";
 }
-//$modulmenu = MModelMenu::find()->where('id = '.$model->id_model_menu)->one()->name;
-//$pic = MPic::find()->where('id = '.$model->id_pic)->one()->name;
+
 ?>
 <div class="task-delivery-view">
 
@@ -49,10 +48,9 @@ if($model->id_pic != NULL){
             <h2><?= 'Task Delivery'.' '. Html::encode($this->title) ?></h2>
         </div>
         <div class="col-sm-4" style="margin-top: 15px">
-
-            <?= Html::a('Save As New', ['save-as-new', 'id' => $model->id], ['class' => 'btn btn-info']) ?>            
-            <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
-            <?= Html::a('Delete', ['delete', 'id' => $model->id], [
+          
+            <?= Html::a('<i class="fa fa-edit"></i>', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+            <?= Html::a('<i class="fa fa-trash"></i>', ['delete', 'id' => $model->id], [
                 'class' => 'btn btn-danger',
                 'data' => [
                     'confirm' => 'Are you sure you want to delete this item?',
@@ -66,48 +64,6 @@ if($model->id_pic != NULL){
     </div>
 
     <div class="row">
-        <!-- <div class="col-md-12">
-            <div class="box">
-                <div class="box-header">
-                  <h3 class="box-title">Data Table With Full Features</h3>
-                </div>
-                <div class="box-body">
-                  <table id="example1" class="table table-bordered table-striped">
-                    <thead>
-                    <tr>
-                      <th>Sprint</th>
-                      <th>Issue</th>
-                      <th>Aplikasi</th>
-                      <th>Platoform</th>
-                      <th>CSS grade</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                      <td>Trident</td>
-                      <td>Internet
-                        Explorer 4.0
-                      </td>
-                      <td>Win 95+</td>
-                      <td> 4</td>
-                      <td>X</td>
-                    </tr>
-                    </tbody>
-                    <tfoot>
-                    <tr>
-                      <th>Rendering engine</th>
-                      <th>Browser</th>
-                      <th>Platform(s)</th>
-                      <th>Engine version</th>
-                      <th>CSS grade</th>
-                    </tr>
-                    </tfoot>
-                  </table>
-                </div>
-              </div>
-        </div> -->
-
-
         <div class="col-md-12">
           <div class="box box-solid">
             <div class="box-header with-border">
