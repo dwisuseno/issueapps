@@ -57,7 +57,7 @@ AppAsset::register($this);
     <?php NavBar::begin();NavBar::end(); ?>
     </div>
 
-    <header class="main-header navbar-fixed-top">
+    <header class="main-header">
         <!-- Logo -->
         <a href="<?= Url::home()?>" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
@@ -72,7 +72,13 @@ AppAsset::register($this);
               <?php if(Yii::$app->user->identity != null){ ?>
               
               <div class="input-group margin">
-                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><?= $_SESSION["project"] ?>
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><?php 
+                  if(isset($_SESSION["project"])){
+                    echo $_SESSION["project"];
+                  } else {
+                    echo "Please Select";
+                  }
+                   ?>
                     <span class="fa fa-caret-down"></span></button>
                   <ul class="dropdown-menu">
                   <?php 
@@ -136,7 +142,7 @@ AppAsset::register($this);
         <!-- Left side column. contains the logo and sidebar -->
         
     </header>
-    <aside class="main-sidebar" style="position:fixed;">
+    <aside class="main-sidebar">
           <!-- sidebar: style can be found in sidebar.less -->
           <section class="sidebar">
             <!-- /.search form -->
@@ -191,7 +197,12 @@ AppAsset::register($this);
                       if(Yii::$app->user->identity != null){ 
                         $sprint_now = MSprint::find()->where('kode = 1')->one(); ?>
                         <li><a href="<?= Url::home()?>">Sprint Saat Ini: <?= $sprint_now->name ?></a></li>
-                        <li><a href="<?= Url::home()?>"><?php echo $_SESSION["project"] ?><span class="pull-right-container">
+                        <li><a href="<?= Url::home()?>"><?php 
+                        if(isset($_SESSION["project"])){
+                            echo $_SESSION["project"];
+                          } else {
+                            echo "Please Select";
+                          } ?><span class="pull-right-container">
               <small class="label pull-right bg-green">Modul</small>
             </span></li>
                       <?php } else {?>
