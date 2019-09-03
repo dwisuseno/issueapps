@@ -171,40 +171,6 @@ use kartik\form\ActiveForm;
         </div>
     </div>
 
-    
-
-    <?php 
-    // echo $form->field($model, 'id_sprint')->widget(\kartik\widgets\Select2::classname(), [
-    //     'data' => \yii\helpers\ArrayHelper::map(\app\modules\datamaster\models\MSprint::find()->orderBy('id')->asArray()->all(), 'id', 'name'),
-    //     'options' => ['placeholder' => 'Choose M sprint'],
-    //     'pluginOptions' => [
-    //         'allowClear' => true
-    //     ],
-    // ]); 
-    ?>
-
-    
-
-    <?php
-    // $forms = [
-    //     [
-    //         'label' => '<i class="glyphicon glyphicon-book"></i> ' . Html::encode('Comment'),
-    //         'content' => $this->render('_formComment', [
-    //             'row' => \yii\helpers\ArrayHelper::toArray($model->comments),
-    //         ]),
-    //     ],
-    // ];
-    // echo kartik\tabs\TabsX::widget([
-    //     'items' => $forms,
-    //     'position' => kartik\tabs\TabsX::POS_ABOVE,
-    //     'encodeLabels' => false,
-    //     'pluginOptions' => [
-    //         'bordered' => true,
-    //         'sideways' => true,
-    //         'enableCache' => false,
-    //     ],
-    // ]);
-    ?>
     <div class="form-group">
     <?php if(Yii::$app->controller->action->id != 'save-as-new'): ?>
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

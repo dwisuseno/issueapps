@@ -5,6 +5,7 @@
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 use yii\helpers\Html;
+use yii\bootstrap\Modal;
 use kartik\export\ExportMenu;
 use kartik\grid\GridView;
 use fedemotta\datatables\DataTables;
@@ -17,39 +18,37 @@ $search = "$('.search-button').click(function(){
 });";
 $this->registerJs($search);
 ?>
+<?php
+    Modal::begin([
+        'header' => '<h4>Task Issue</h4>',
+        'id' => 'modalTask',
+        'size' => 'modal-lg',
+        ]);
+        echo "<div id='modalContentTask'></div>";
+    Modal::end();
+?>
+
 <div class="task-delivery-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('<i class="fa fa-plus"></i>', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('<i class="fa fa-plus"></i>', ['create'], ['id' => 'modalButtonTask', 'class' => 'btn btn-success']) ?>
         <?= Html::a('<i class="fa fa-search"></i>', '#', ['class' => 'btn btn-info search-button']) ?>
+    </p>
     </p>
     <div class="search-form" style="display:none">
         <?=  $this->render('_search', ['model' => $searchModel]); ?>
     </div>
     <?php
-    // $searchModel = new ModelSearch();
-    // $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
     ?>
   
 
     <?php 
     $gridColumn = [
         ['class' => 'kartik\grid\SerialColumn'],
-        // [
-        //     'class' => 'kartik\grid\ExpandRowColumn',
-        //     'width' => '50px',
-        //     // 'value' => function ($model, $key, $index, $column) {
-        //     //     return GridView::ROW_COLLAPSED;
-        //     // },
-        //     // 'detail' => function ($model, $key, $index, $column) {
-        //     //     return Yii::$app->controller->renderPartial('_expand', ['model' => $model]);
-        //     // },
-        //     'headerOptions' => ['class' => 'kartik-sheet-style'],
-        //     'expandOneOnly' => true
-        // ],
         ['attribute' => 'id', 'visible' => false],
         'id',
         [
@@ -66,54 +65,6 @@ $this->registerJs($search);
                         return "<span class='label label-info'>".$model->aplikasi->name."</span><br>".$model->issue."<br><i><h5>Rencana Perbaikan: ".date_format($start_date,"d M Y")." s.d. ".date_format($end_date,"d M Y")." (".$interval->days." days)</h5></i><br><small>created at: ".date_format($date,"d M Y")."</small>";
                     },
                 ],
-           //      [
-           //          'attribute' => 'start_date',
-           //          'format' => 'html',
-           //          'label' => 'Mulai Perbaikan',
-           //          'value' => function($model){
-                        
-           //              return $model->start_date;
-           //          },
-           //      ],
-           // [
-           //          'attribute' => 'end_date',
-           //          'format' => 'html',
-           //          'label' => 'Estimasi Selesai',
-           //          'value' => function($model){
-                        
-           //              return $model->end_date;
-           //          },
-           //      ],
-            'actual_finish_date',
-            // [
-            //         'attribute' => 'id_aplikasi',
-            //         'format' => 'html',
-            //         // 'label' => 'Id Aplikasi',
-            //         'value' => function($model){
-            //             return $model->aplikasi->name;
-            //         },
-            //     ],
-            // [
-            //         'attribute' => 'id_pic',
-            //         // 'label' => 'Id Pic',
-            //         'value' => function($model){
-            //             return $model->pic->name;
-            //         },
-            //     ],
-            // [
-            //         'attribute' => 'id_platform',
-            //         // 'label' => 'Id Platform',
-            //         'value' => function($model){
-            //             return $model->platform->name;
-            //         },
-            //     ],
-            // [
-            //         'attribute' => 'id_model_menu',
-            //         // 'label' => 'Id Model Menu',
-            //         'value' => function($model){
-            //             return $model->modelMenu->name;
-            //         },
-            //     ],
             [
                     'attribute' => 'id_status',
                     // 'label' => 'Id Status',
@@ -150,43 +101,19 @@ $this->registerJs($search);
                         return Html::a('Detail', $url, ['title' => 'Detail', 'class' => 'btn btn-sm btn-default'])."<br>";
                     },
                     'update' => function ($url) {
-                        return "<br>".Html::a('Edit', $url, ['title' => 'Edit', 'class' => 'btn btn-sm btn-primary']);
+                        return "<br>".Html::a('Edit', $url, ['title' => 'Edit','id' => 'modalButtonTask', 'class' => 'btn btn-sm btn-primary']);
                     },
-                    // 'changetoprogress' => function ($url) {
-                    //     return Html::a('Move to Sprint<br>', $url, ['title' => 'On Progress', 'class' => 'btn btn-success']);
-                    // },
-                    // 'delete' => function ($url) {
-                    //     return Html::a('Delete', $url, ['title' => 'Delete']);
-                    // },
                 ],
             ],
             [
                 'class' => 'yii\grid\ActionColumn',
                 'template' => ' {changetoprogress}',
                 'buttons' => [
-                    // 'view' => function ($url) {
-                    //     return Html::a('Detail<br>', $url, ['title' => 'Detail', 'class' => 'btn btn-default']);
-                    // },
-                    // 'update' => function ($url) {
-                    //     return Html::a('Edit<br>', $url, ['title' => 'Edit', 'class' => 'btn btn-primary']);
-                    // },
                     'changetoprogress' => function ($url) {
                         return Html::a('<i class="fa fa-arrow-circle-right"></i> Move to Sprint<br>', $url, ['title' => 'On Progress', 'class' => 'btn btn-success']);
                     },
-                    // 'delete' => function ($url) {
-                    //     return Html::a('Delete', $url, ['title' => 'Delete']);
-                    // },
                 ],
             ],
-        // [
-        //     'class' => '\kartik\widgets\ActionColumn',
-        //     'template' => '{save-as-new} {view} {update} {delete}',
-        //     'buttons' => [
-        //         'save-as-new' => function ($url) {
-        //             return Html::a('<span class="glyphicon glyphicon-copy"></span>', $url, ['title' => 'Save As New']);
-        //         },
-        //     ],
-        // ],
     ]; 
     $gridExport = [
         ['class' => 'kartik\grid\SerialColumn'],
@@ -310,5 +237,5 @@ $this->registerJs($search);
         ],
     ]); 
      ?>
-
+     
 </div>

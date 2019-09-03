@@ -48,7 +48,7 @@ class AppAsset extends AssetBundle
         'js/ajax-modal-popup.js',
 
 
-        // 'js/main.js',
+        'js/main.js',
 
         'https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js',
 

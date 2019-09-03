@@ -1,10 +1,10 @@
-
-
 $(function(){
-	$('#modalButtonRInsiden').click(function(){
-		$('#modalRInsiden').modal('show')
-			.find('#modalContentRInsiden')
-			.load($(this).attr('value'));
+	$('#modalButtonTask').click(function(){
+		$('#modalTask').modal('show')
+			.find('#modalContentTask')
+			.load($(this).attr('href'));
+			return false;
 	});
 });
+
 

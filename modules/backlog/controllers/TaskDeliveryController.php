@@ -29,7 +29,7 @@ class TaskDeliveryController extends Controller
                 'rules' => [
                     [
                         'allow' => true,
-                        'actions' => ['index', 'view', 'create', 'update', 'delete', 'pdf', 'save-as-new', 'add-comment','changetoprogress'],
+                        'actions' => ['index', 'view', 'create', 'update', 'delete', 'pdf', 'save-as-new', 'add-comment','changetoprogress', 'modalcreate'],
                         'roles' => ['@']
                     ],
                     [
@@ -72,6 +72,13 @@ class TaskDeliveryController extends Controller
         ]);
     }
 
+    public function actionModalcreate(){
+        $model = new TaskDelivery();
+        return $this->renderAjax('_form', [
+            'model' => $model,
+        ]);
+    }
+
     /**
      * Creates a new TaskDelivery model.
      * If creation is successful, the browser will be redirected to the 'view' page.
@@ -89,8 +96,8 @@ class TaskDeliveryController extends Controller
             $model->save(false);
             return $this->redirect(['index']);
         } else {
-            return $this->render('create', [
-                'model' => $model,
+            return $this->renderAjax('create', [
+                    'model' => $model
             ]);
         }
     }
