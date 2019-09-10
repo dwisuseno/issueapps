@@ -4,6 +4,7 @@ namespace app\modules\backlog\controllers;
 
 use Yii;
 use app\modules\backlog\models\TaskDelivery;
+use app\modules\backlog\models\Comment;
 use app\modules\backlog\models\TaskDeliverySearch;
 use app\modules\datamaster\models\MSprint;
 use yii\web\Controller;
@@ -21,7 +22,8 @@ class TaskDeliveryController extends Controller
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
-                    'delete' => ['post'],
+                    'delete' => ['post']
+                    // 'add-comment' => ['post']
                 ],
             ],
             'access' => [
@@ -29,7 +31,7 @@ class TaskDeliveryController extends Controller
                 'rules' => [
                     [
                         'allow' => true,
-                        'actions' => ['index', 'view', 'create', 'update', 'delete', 'pdf', 'save-as-new', 'add-comment','changetoprogress', 'modalcreate'],
+                        'actions' => ['index', 'view', 'create', 'update', 'delete', 'pdf', 'save-as-new','changetoprogress','add-comment', 'modalcreate'],
                         'roles' => ['@']
                     ],
                     [
@@ -66,18 +68,20 @@ class TaskDeliveryController extends Controller
         $providerComment = new \yii\data\ArrayDataProvider([
             'allModels' => $model->comments,
         ]);
+
+        $modelComment = Comment::find()->where('id_tasklist = '.$id)->all();
+        
+        // echo "<pre>";
+        // var_dump($modelComment[0]->comment);
+        // echo "</pre>";
+        // exit();
         return $this->render('view', [
             'model' => $this->findModel($id),
-            'providerComment' => $providerComment,
+            // 'providerComment' => $providerComment,
+            'modelComment' => $modelComment,
         ]);
     }
 
-    public function actionModalcreate(){
-        $model = new TaskDelivery();
-        return $this->renderAjax('_form', [
-            'model' => $model,
-        ]);
-    }
 
     /**
      * Creates a new TaskDelivery model.
@@ -224,17 +228,17 @@ class TaskDeliveryController extends Controller
     *
     * @return mixed
     */
-    public function actionAddComment()
-    {
-        if (Yii::$app->request->isAjax) {
-            $row = Yii::$app->request->post('Comment');
-            if((Yii::$app->request->post('isNewRecord') && Yii::$app->request->post('_action') == 'load' && empty($row)) || Yii::$app->request->post('_action') == 'add')
-                $row[] = [];
-            return $this->renderAjax('_formComment', ['row' => $row]);
-        } else {
-            throw new NotFoundHttpException('The requested page does not exist.');
-        }
-    }
+    // public function actionAddComment()
+    // {
+    //     if (Yii::$app->request->isAjax) {
+    //         $row = Yii::$app->request->post('Comment');
+    //         if((Yii::$app->request->post('isNewRecord') && Yii::$app->request->post('_action') == 'load' && empty($row)) || Yii::$app->request->post('_action') == 'add')
+    //             $row[] = [];
+    //         return $this->renderAjax('_formComment', ['row' => $row]);
+    //     } else {
+    //         throw new NotFoundHttpException('The requested page does not exist.');
+    //     }
+    // }
 
     public function actionChangetoprogress($id){
         $model = $this->findModel($id);
@@ -242,5 +246,13 @@ class TaskDeliveryController extends Controller
         $model->id_status = 2;
         $model->save(false);
         return $this->redirect(['index']);
+    }
+
+    public function actionAddComment($id,$data){
+        $model = new Comment();
+        $model->id_tasklist = $id;
+        $model->comment = $data;
+        $model->save(false);
+        return $this->actionView($id);
     }
 }

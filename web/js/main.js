@@ -7,4 +7,13 @@ $(function(){
 	});
 });
 
+$(function(){
+	$('#modalButtonViewTask').click(function(){
+		$('#modalViewTask').modal('show')
+			.find('#modalContentViewTask')
+			.load($(this).attr('href'));
+			return false;
+	});
+});
+
 

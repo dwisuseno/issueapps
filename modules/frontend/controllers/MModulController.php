@@ -46,7 +46,7 @@ class MModulController extends Controller
         // print_r($_SESSION);
         // var_dump($id);
         // exit();
-        return $this->goBack();
+        return $this->redirect(Yii::$app->request->referrer);
         
     }
 

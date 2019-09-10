@@ -26,6 +26,14 @@ $this->registerJs($search);
         ]);
         echo "<div id='modalContentTask'></div>";
     Modal::end();
+
+    Modal::begin([
+        'header' => '<h4>Detail Issue</h4>',
+        'id' => 'modalViewTask',
+        'size' => 'modal-lg',
+        ]);
+        echo "<div id='modalContentViewTask'></div>";
+    Modal::end();
 ?>
 
 <div class="task-delivery-index">
@@ -62,7 +70,7 @@ $this->registerJs($search);
 
                         $interval = $start_date->diff($end_date);
 
-                        return "<span class='label label-info'>".$model->aplikasi->name."</span><br>".$model->issue."<br><i><h5>Rencana Perbaikan: ".date_format($start_date,"d M Y")." s.d. ".date_format($end_date,"d M Y")." (".$interval->days." days)</h5></i><br><small>created at: ".date_format($date,"d M Y")."</small>";
+                        return "<span class='label label-info'>".$model->aplikasi->name." - Sprint ".$model->id_sprint."</span><br>".$model->issue."<br><i><h5>Rencana Perbaikan: ".date_format($start_date,"d M Y")." s.d. ".date_format($end_date,"d M Y")." (".$interval->days." days)</h5></i><br><small>created at: ".date_format($date,"d M Y")."</small>";
                     },
                 ],
             [
@@ -95,13 +103,13 @@ $this->registerJs($search);
             // 'deployment',
             [
                 'class' => 'yii\grid\ActionColumn',
-                'template' => '{save-as-new} {view} {update}',
+                'template' => ' {view} {update}',
                 'buttons' => [
                     'view' => function ($url) {
                         return Html::a('Detail', $url, ['title' => 'Detail', 'class' => 'btn btn-sm btn-default'])."<br>";
                     },
                     'update' => function ($url) {
-                        return "<br>".Html::a('Edit', $url, ['title' => 'Edit','id' => 'modalButtonTask', 'class' => 'btn btn-sm btn-primary']);
+                        return "<br>".Html::a('<i class="fa fa-edit"></i>', $url, ['title' => 'Edit','id' => 'modalButtonTask', 'class' => 'btn btn-sm btn-default']);
                     },
                 ],
             ],
@@ -150,7 +158,12 @@ $this->registerJs($search);
                     'attribute' => 'id_pic',
                     // 'label' => 'Id Pic',
                     'value' => function($model){
-                        return $model->pic->name;
+                        if(isset($model->pic)){
+                            return $model->pic->name;
+                        } else {
+                            return "Data Belum Diisi";
+                        }
+                        
                     },
                 ],
             [
@@ -164,7 +177,12 @@ $this->registerJs($search);
                     'attribute' => 'id_model_menu',
                     // 'label' => 'Id Model Menu',
                     'value' => function($model){
-                        return $model->modelMenu->name;
+                        if(isset($model->modelMenu)){
+                            return $model->modelMenu->name;
+                        } else {
+                            return "Data Belum Diisi";
+                        }
+                        
                     },
                 ],
             [
@@ -204,7 +222,7 @@ $this->registerJs($search);
     ?>
      <?php 
      $dataProvider->pagination = array(
-            'pagesize' => 10,
+            'pagesize' => 15,
         );
      echo GridView::widget([
         'dataProvider' => $dataProvider,
@@ -214,7 +232,7 @@ $this->registerJs($search);
         'pjax' => true,
         'pjaxSettings' => ['options' => ['id' => 'kv-pjax-container-task-delivery']],
         'panel' => [
-            'type' => GridView::TYPE_PRIMARY,
+            'type' => GridView::TYPE_DEFAULT,
             'heading' => '<span class="glyphicon glyphicon-book"></span>  ' . Html::encode($this->title),
         ],
         // your toolbar can include the additional full export menu

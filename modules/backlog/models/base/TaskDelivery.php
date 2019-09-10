@@ -43,6 +43,8 @@ class TaskDelivery extends \yii\db\ActiveRecord
 {
     use \mootensai\relation\RelationTrait;
 
+    public $data_comment;
+
     /**
      * @inheritdoc
      */

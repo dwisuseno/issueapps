@@ -1,6 +1,7 @@
 <?php
 
 use yii\helpers\Html;
+use yii\helpers\Url;
 use yii\widgets\DetailView;
 use kartik\grid\GridView;
 use app\modules\datamaster\models\MSprint;
@@ -10,6 +11,7 @@ use app\modules\datamaster\models\MPrioritas;
 use app\modules\datamaster\models\MStatus;
 use app\modules\datamaster\models\MModelMenu;
 use app\modules\datamaster\models\MPic;
+use kartik\form\ActiveForm;
 
 /* @var $this yii\web\View */
 /* @var $model app\modules\backlog\models\TaskDelivery */
@@ -42,34 +44,22 @@ if($model->id_pic != NULL){
 
 ?>
 <div class="task-delivery-view">
-
     <div class="row">
         <div class="col-sm-8">
             <h2><?= 'Task Delivery'.' '. Html::encode($this->title) ?></h2>
         </div>
         <div class="col-sm-4" style="margin-top: 15px">
           
-            <?= Html::a('<i class="fa fa-edit"></i>', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
-            <?= Html::a('<i class="fa fa-trash"></i>', ['delete', 'id' => $model->id], [
-                'class' => 'btn btn-danger',
-                'data' => [
-                    'confirm' => 'Are you sure you want to delete this item?',
-                    'method' => 'post',
-                ],
-            ])
-
             
-            ?>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-12">
-          <div class="box box-solid">
+        <div class="col-md-6">
+          <div class="box box-primary">
             <div class="box-header with-border">
-              <i class="fa fa-text-width"></i>
-
-              <h3 class="box-title">Detail Task Delivery</h3>
+              <h3 class="box-title">Detail &nbsp</h3>
+              
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -99,102 +89,82 @@ if($model->id_pic != NULL){
               </dl>
             </div>
             <!-- /.box-body -->
+            <div class="box-footer">
+              <?= Html::a('<i class="fa fa-edit"></i>', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+              <?= Html::a('<i class="fa fa-trash"></i>', ['delete', 'id' => $model->id], [
+                  'class' => 'btn btn-danger',
+                  'data' => [
+                      'confirm' => 'Are you sure you want to delete this item?',
+                      'method' => 'post',
+                  ],
+              ])
+              ?>
+            </div>
           </div>
           <!-- /.box -->
         </div>
-<?php 
-    // $gridColumn = [
-    //     ['attribute' => 'id', 'visible' => false],
-    //     [
-    //         'attribute' => 'sprint.name',
-    //         'label' => 'Sprint Ke',
-    //     ],
-    //     [
-    //         'attribute' => 'aplikasi.name',
-    //         'label' => 'Aplikasi',
-    //     ],
-    //     [
-    //         'attribute' => 'pic.name',
-    //         'label' => 'Developer In Charge',
-    //     ],
-    //     [
-    //         'attribute' => 'platform.name',
-    //         'label' => 'Platform',
-    //     ],
-    //     [
-    //         'attribute' => 'modelMenu.name',
-    //         'label' => 'Modul / Menu',
-    //     ],
-    //     // [
-    //     //     'attribute' => 'is_tested_by_vendor',
-    //     //     'label' => 'Testing By Vendor',
-
-    //     // ],
-    //     // 'is_tested_by_owner',
-    //     [
-    //         'attribute' => 'status.name',
-    //         'label' => 'Status',
-    //     ],
-    //     [
-    //         'attribute' => 'prioritas.name',
-    //         'label' => 'Prioritas',
-    //         // 'format' => 'html',
-    //         // // 'label' => 'Id Prioritas',
-    //         // 'value' => function($model){
-    //         //     if($model->prioritas->id == 1){
-    //         //         return "<span class='label label-info'>".$model->prioritas->name."</span>";
-    //         //     } else if($model->prioritas->id == 2){
-    //         //         return "<span class='label label-warning'>".$model->prioritas->name."</span>";
-    //         //     } else {
-    //         //         return "<span class='label label-danger'>".$model->prioritas->name."</span>";
-    //         //     }
-    //         // },
-    //     ],
-    //     'issue',
-    //     'estimated_day',
-    //     'actual_finish_date',
-    //     // [
-    //     //     'attribute' => 'created_at',
-    //     //     'format' => 'html',
-    //     //     'label' => 'Estimated Finish',
-    //     //     'value' => function($model){
-    //     //         var_dump($model);
-    //     //         exit();
-    //     //         $hasil = date('d/m/Y', strtotime($model->created_at. ' + '.$model->estimated_day.' days'));
-
-    //     //         return $hasil;
-    //     //     },
-    //     // ],
-    //     'deployment',
-    //     'keterangan',
-    // ];
-    // echo DetailView::widget([
-    //     'model' => $model,
-    //     'attributes' => $gridColumn
-    // ]); 
-?>
+        <div class="col-md-6">
+        <div class="box box-secondary">
+              <div class="box-header with-border">
+                    <h3 class="box-title">Add Comment or Sub Task</h3>
+                  </div>
+                  <?php $form = ActiveForm::begin([
+                      'id' => 'comment-form',
+                      'action' => Url::to(['add-comment', 'data' => $model->data_comment,'id' => $model->id ]),
+                      // 'method' => 'get',
+                      // 'id' => 'login-form-horizontal', 
+                      // // 'type' => ActiveForm::TYPE_HORIZONTAL,
+                      // 'formConfig' => ['labelSpan' => 4, 'deviceSize' => ActiveForm::SIZE_SMALL]
+                  ]); ?>
+                  <form role="form">
+                    <div class="box-body">
+                      <div class="form-group">
+                      <?= $form->field($model, 'id', ['template' => '{input}'])->textInput(['style' => 'display:none']); ?>
+                        <?= $form->field($model, 'data_comment', ['template' => '{input}'])->textarea(['rows' => 3]) ?>
+                      </div>
+                    </div>
+                    <div class="box-footer">
+                      <?php 
+                          echo Html::submitButton('Submit', ['class' => 'btn btn-primary']);
+                          ActiveForm::end();
+                      ?>
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div>
     </div>
-    
     <div class="row">
-<?php
-if($providerComment->totalCount){
-    $gridColumnComment = [
-        ['class' => 'yii\grid\SerialColumn'],
-            ['attribute' => 'id', 'visible' => false],
-                        'comment',
-            'keterangan',
-    ];
-    echo Gridview::widget([
-        'dataProvider' => $providerComment,
-        'pjax' => true,
-        'pjaxSettings' => ['options' => ['id' => 'kv-pjax-container-comment']],
-        'panel' => [
-            'type' => GridView::TYPE_PRIMARY,
-            'heading' => '<span class="glyphicon glyphicon-book"></span> ' . Html::encode('Comment'),
-        ],
-        'columns' => $gridColumnComment
-    ]);
-}
-?>
+      <div class='col-md-12'>
+      <div class="box box-primary">
+        <div class="box-header with-border">
+          <h3 class="box-title">List Comment</h3>
+
+        </div>
+        <div class="box-body">
+        <table class="table table-hover">
+                <tr>
+                  <th>ID</th>
+                  <th>Comment</th>
+                  <th>User</th>
+                  <th>Date</th>
+                </tr>
+                <?php
+                  // echo "<pre>";
+                  // var_dump($modelComment[0]->id);
+                  // echo "</pre>";
+                  // exit();
+                  for($i=0;$i<sizeof($modelComment);$i++){
+                ?>
+                <tr>
+                  <td><?= $modelComment[0]->id ?></td>
+                  <td><?= $modelComment[$i]->comment ?></td>
+                  <td><?= $modelComment[$i]->created_by ?></td>
+                  <td><?= $modelComment[$i]->created_at ?></td>
+                </tr> 
+                <?php } ?>
+              </table>
+        </div>
+      </div>
     </div>
 </div>

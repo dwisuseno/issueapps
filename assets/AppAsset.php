@@ -45,7 +45,7 @@ class AppAsset extends AssetBundle
     ];
 
     public $js = [
-        'js/ajax-modal-popup.js',
+        // 'js/ajax-modal-popup.js',
 
 
         'js/main.js',
