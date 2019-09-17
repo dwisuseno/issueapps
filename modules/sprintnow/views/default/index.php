@@ -61,7 +61,7 @@ $this->registerJs($search);
 
                         $interval = $start_date->diff($end_date);
 
-                        return "<span class='label label-info'>".$model->aplikasi->name."</span><br>".$model->issue."<br><i><h5>Rencana Perbaikan: ".date_format($start_date,"d M Y")." s.d. ".date_format($end_date,"d M Y")." (".$interval->days." days)</h5></i><br><small>created at: ".date_format($date,"d M Y")."</small>";
+                        return "<span class='label label-info'>".$model->aplikasi->name." - Sprint ".$model->id_sprint."</span><br>".$model->issue."<br><i><h5>Rencana Perbaikan: ".date_format($start_date,"d M Y")." s.d. ".date_format($end_date,"d M Y")." (".$interval->days." days)</h5></i><br><small>created at: ".date_format($date,"d M Y")."</small>";
                     },
                 ],
             'actual_finish_date',

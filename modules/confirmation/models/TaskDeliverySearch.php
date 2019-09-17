@@ -57,9 +57,8 @@ use app\modules\confirmation\models\TaskDelivery;
             return $dataProvider;
         }
 
-        if(isset($_SESSION["project"])){
+        if(isset($_SESSION["project"]) && $_SESSION["project"] != 'Default'){
             $query->andWhere('id_modul = '.$_SESSION['id'].'');
-            //echo $_SESSION["project"];
         } 
 
         $query->andWhere('id_status = 3');

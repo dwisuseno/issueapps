@@ -56,7 +56,7 @@ use app\modules\backlog\models\TaskDelivery;
             // $query->where('0=1');
             return $dataProvider;
         }
-        if(isset($_SESSION["project"])){
+        if(isset($_SESSION["project"]) && $_SESSION["project"] != 'Default'){
             $query->andWhere('id_modul = '.$_SESSION['id'].'');
             //echo $_SESSION["project"];
           } 

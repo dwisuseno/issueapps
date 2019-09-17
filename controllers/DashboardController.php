@@ -51,7 +51,7 @@ class DashboardController extends Controller
             $totalWebTask = TaskDelivery::find()->where('id_platform = 1 and (id_status = 1 or id_status = 2 or id_status = 3) and deleted = 0 and id_modul = '.$_SESSION['id'].'')->count();
             $totalMobileTask = TaskDelivery::find()->where('id_platform = 2 and (id_status = 1 or id_status = 2 or id_status = 3) and deleted = 0 and id_modul = '.$_SESSION['id'].'')->count();
             $totalRfidTask = TaskDelivery::find()->where('id_platform = 3 and (id_status = 1 or id_status = 2 or id_status = 3) and deleted = 0 and id_modul = '.$_SESSION['id'].'')->count();
-
+            $query_developer = "select * from vw_task_developer where id_modul = ".$_SESSION['id']."";
         } else {
             $totalAllIssue = TaskDelivery::find()->where('deleted = 0')->count();
             $totalHighIssue = TaskDelivery::find()->where('id_prioritas = 3 and deleted = 0')->count();
@@ -61,10 +61,10 @@ class DashboardController extends Controller
             $totalWebTask = TaskDelivery::find()->where('id_platform = 1 and (id_status = 1 or id_status = 2 or id_status = 3) and deleted = 0')->count();
             $totalMobileTask = TaskDelivery::find()->where('id_platform = 2 and (id_status = 1 or id_status = 2 or id_status = 3) and deleted = 0')->count();
             $totalRfidTask = TaskDelivery::find()->where('id_platform = 3 and (id_status = 1 or id_status = 2 or id_status = 3) and deleted = 0')->count();
-
+            $query_developer = "select * from vw_task_developer";
             
         }
-        $query_developer = "select * from vw_task_developer";
+        // $query_developer = "select * from vw_task_developer where ";
         $DeveloperTask = Yii::$app->db->CreateCommand($query_developer)->queryAll();
 
         

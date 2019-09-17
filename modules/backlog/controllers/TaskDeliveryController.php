@@ -69,7 +69,7 @@ class TaskDeliveryController extends Controller
             'allModels' => $model->comments,
         ]);
 
-        $modelComment = Comment::find()->where('id_tasklist = '.$id)->all();
+        $modelComment = Comment::find()->orderBy(['id' => SORT_DESC])->where('id_tasklist = '.$id)->all();
         
         // echo "<pre>";
         // var_dump($modelComment[0]->comment);
@@ -219,26 +219,6 @@ class TaskDeliveryController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
-    
-    /**
-    * Action to load a tabular form grid
-    * for Comment
-    * @author Yohanes Candrajaya <moo.tensai@gmail.com>
-    * @author Jiwantoro Ndaru <jiwanndaru@gmail.com>
-    *
-    * @return mixed
-    */
-    // public function actionAddComment()
-    // {
-    //     if (Yii::$app->request->isAjax) {
-    //         $row = Yii::$app->request->post('Comment');
-    //         if((Yii::$app->request->post('isNewRecord') && Yii::$app->request->post('_action') == 'load' && empty($row)) || Yii::$app->request->post('_action') == 'add')
-    //             $row[] = [];
-    //         return $this->renderAjax('_formComment', ['row' => $row]);
-    //     } else {
-    //         throw new NotFoundHttpException('The requested page does not exist.');
-    //     }
-    // }
 
     public function actionChangetoprogress($id){
         $model = $this->findModel($id);
@@ -248,11 +228,21 @@ class TaskDeliveryController extends Controller
         return $this->redirect(['index']);
     }
 
-    public function actionAddComment($id,$data){
-        $model = new Comment();
-        $model->id_tasklist = $id;
-        $model->comment = $data;
-        $model->save(false);
-        return $this->actionView($id);
+    public function actionAddComment($id){
+        // $model = new Comment();
+        $model = $this->findModel($id);
+        $model_comment = new Comment();
+        if ($model->loadAll(Yii::$app->request->post())) {
+            // var_dump(Yii::$app->request->post());
+            // exit();
+            $model_comment->id_tasklist = $id;
+            $model_comment->comment = $model->data_comment;
+            $model_comment->save();
+            return $this->redirect(Yii::$app->request->referrer);
+        } else {
+            return $this->redirect(Yii::$app->request->referrer);
+        }
+
+        
     }
 }

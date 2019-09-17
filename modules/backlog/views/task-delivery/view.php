@@ -111,7 +111,7 @@ if($model->id_pic != NULL){
                   <?php $form = ActiveForm::begin([
                       'id' => 'comment-form',
                       'action' => Url::to(['add-comment', 'data' => $model->data_comment,'id' => $model->id ]),
-                      // 'method' => 'get',
+                      'method' => 'post',
                       // 'id' => 'login-form-horizontal', 
                       // // 'type' => ActiveForm::TYPE_HORIZONTAL,
                       // 'formConfig' => ['labelSpan' => 4, 'deviceSize' => ActiveForm::SIZE_SMALL]
@@ -119,7 +119,7 @@ if($model->id_pic != NULL){
                   <form role="form">
                     <div class="box-body">
                       <div class="form-group">
-                      <?= $form->field($model, 'id', ['template' => '{input}'])->textInput(['style' => 'display:none']); ?>
+                        <?= $form->field($model, 'id', ['template' => '{input}'])->textInput(['style' => 'display:none']); ?>
                         <?= $form->field($model, 'data_comment', ['template' => '{input}'])->textarea(['rows' => 3]) ?>
                       </div>
                     </div>
@@ -157,7 +157,7 @@ if($model->id_pic != NULL){
                   for($i=0;$i<sizeof($modelComment);$i++){
                 ?>
                 <tr>
-                  <td><?= $modelComment[0]->id ?></td>
+                  <td><?= $modelComment[$i]->id ?></td>
                   <td><?= $modelComment[$i]->comment ?></td>
                   <td><?= $modelComment[$i]->created_by ?></td>
                   <td><?= $modelComment[$i]->created_at ?></td>
