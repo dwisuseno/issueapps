@@ -43,6 +43,8 @@ class TaskDelivery extends \yii\db\ActiveRecord
 {
     use \mootensai\relation\RelationTrait;
 
+    public $data_comment;
+
     /**
      * @inheritdoc
      */
@@ -50,7 +52,7 @@ class TaskDelivery extends \yii\db\ActiveRecord
     {
         return [
             [['id_sprint', 'id_aplikasi', 'id_pic', 'id_platform', 'id_model_menu', 'is_tested_by_vendor', 'is_tested_by_owner', 'id_status', 'id_prioritas', 'estimated_day'], 'integer'],
-            [['issue'], 'string', 'max' => 800],
+            [['issue','data_comment'], 'string', 'max' => 800],
             [['actual_finish_date', 'deployment', 'keterangan', 'updated_at', 'created_at', 'deleted', 'created_by', 'updated_by'], 'string', 'max' => 255]
         ];
     }

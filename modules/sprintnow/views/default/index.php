@@ -8,6 +8,7 @@ use yii\helpers\Html;
 use kartik\export\ExportMenu;
 use kartik\grid\GridView;
 use fedemotta\datatables\DataTables;
+use app\modules\backlog\models\Comment;
 
 $this->title = 'Sprint Now';
 $this->params['breadcrumbs'][] = $this->title;
@@ -36,18 +37,6 @@ $this->registerJs($search);
     <?php 
     $gridColumn = [
         ['class' => 'kartik\grid\SerialColumn'],
-        // [
-        //     'class' => 'kartik\grid\ExpandRowColumn',
-        //     'width' => '50px',
-        //     // 'value' => function ($model, $key, $index, $column) {
-        //     //     return GridView::ROW_COLLAPSED;
-        //     // },
-        //     // 'detail' => function ($model, $key, $index, $column) {
-        //     //     return Yii::$app->controller->renderPartial('_expand', ['model' => $model]);
-        //     // },
-        //     'headerOptions' => ['class' => 'kartik-sheet-style'],
-        //     'expandOneOnly' => true
-        // ],
         ['attribute' => 'id', 'visible' => false],
         'id',
         [
@@ -61,7 +50,9 @@ $this->registerJs($search);
 
                         $interval = $start_date->diff($end_date);
 
-                        return "<span class='label label-info'>".$model->aplikasi->name." - Sprint ".$model->id_sprint."</span><br>".$model->issue."<br><i><h5>Rencana Perbaikan: ".date_format($start_date,"d M Y")." s.d. ".date_format($end_date,"d M Y")." (".$interval->days." days)</h5></i><br><small>created at: ".date_format($date,"d M Y")."</small>";
+                        $jumlah_comment = Comment::find()->where('id_tasklist = '.$model->id.' and deleted = 0')->count();
+
+                        return "<span class='label label-info'>".$model->aplikasi->name." - Sprint ".$model->id_sprint."</span><br>".$model->issue."<br><i><h5>Rencana Perbaikan: ".date_format($start_date,"d M Y")." s.d. ".date_format($end_date,"d M Y")." (".$interval->days." days)</h5></i><br><small>created at: ".date_format($date,"d M Y")." - ".$jumlah_comment." Comments </small>";
                     },
                 ],
             'actual_finish_date',

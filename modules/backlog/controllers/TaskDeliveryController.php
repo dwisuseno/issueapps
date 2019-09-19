@@ -31,7 +31,7 @@ class TaskDeliveryController extends Controller
                 'rules' => [
                     [
                         'allow' => true,
-                        'actions' => ['index', 'view', 'create', 'update', 'delete', 'pdf', 'save-as-new','changetoprogress','add-comment', 'modalcreate'],
+                        'actions' => ['index', 'view', 'create', 'update', 'delete', 'pdf', 'save-as-new','changetoprogress','add-comment', 'modalcreate', 'deletecomment'],
                         'roles' => ['@']
                     ],
                     [
@@ -69,12 +69,8 @@ class TaskDeliveryController extends Controller
             'allModels' => $model->comments,
         ]);
 
-        $modelComment = Comment::find()->orderBy(['id' => SORT_DESC])->where('id_tasklist = '.$id)->all();
+        $modelComment = Comment::find()->orderBy(['id' => SORT_DESC])->where('id_tasklist = '.$id.' and deleted = 0')->all();
         
-        // echo "<pre>";
-        // var_dump($modelComment[0]->comment);
-        // echo "</pre>";
-        // exit();
         return $this->render('view', [
             'model' => $this->findModel($id),
             // 'providerComment' => $providerComment,
@@ -220,6 +216,15 @@ class TaskDeliveryController extends Controller
         }
     }
 
+    protected function findModelComment($id)
+    {
+        if (($model = Comment::findOne($id)) !== null) {
+            return $model;
+        } else {
+            throw new NotFoundHttpException('The requested page does not exist.');
+        }
+    }
+
     public function actionChangetoprogress($id){
         $model = $this->findModel($id);
         $model->loadAll(Yii::$app->request->post());
@@ -242,7 +247,13 @@ class TaskDeliveryController extends Controller
         } else {
             return $this->redirect(Yii::$app->request->referrer);
         }
+    }
 
-        
+    public function actionDeletecomment($id){
+        $model = $this->findModelComment($id);
+        $model->loadAll(Yii::$app->request->post());
+        $model->deleted = 1;
+        $model->save(false);
+        return $this->redirect(Yii::$app->request->referrer);
     }
 }

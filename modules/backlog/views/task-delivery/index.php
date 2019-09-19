@@ -9,6 +9,7 @@ use yii\bootstrap\Modal;
 use kartik\export\ExportMenu;
 use kartik\grid\GridView;
 use fedemotta\datatables\DataTables;
+use app\modules\backlog\models\Comment;
 
 $this->title = 'Backlog Task';
 $this->params['breadcrumbs'][] = $this->title;
@@ -70,7 +71,9 @@ $this->registerJs($search);
 
                         $interval = $start_date->diff($end_date);
 
-                        return "<span class='label label-info'>".$model->aplikasi->name." - Sprint ".$model->id_sprint."</span><br>".$model->issue."<br><i><h5>Rencana Perbaikan: ".date_format($start_date,"d M Y")." s.d. ".date_format($end_date,"d M Y")." (".$interval->days." days)</h5></i><br><small>created at: ".date_format($date,"d M Y")."</small>";
+                        $jumlah_comment = Comment::find()->where('id_tasklist = '.$model->id.' and deleted = 0')->count();
+
+                        return "<span class='label label-info'>".$model->aplikasi->name." - Sprint ".$model->id_sprint."</span><br>".$model->issue."<br><i><h5>Rencana Perbaikan: ".date_format($start_date,"d M Y")." s.d. ".date_format($end_date,"d M Y")." (".$interval->days." days)</h5></i><br><small>created at: ".date_format($date,"d M Y")." - ".$jumlah_comment." Comments </small>";
                     },
                 ],
             [

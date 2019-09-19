@@ -145,9 +145,8 @@ if($model->id_pic != NULL){
         <table class="table table-hover">
                 <tr>
                   <th>ID</th>
+                  <th>Action</th>
                   <th>Comment</th>
-                  <th>User</th>
-                  <th>Date</th>
                 </tr>
                 <?php
                   // echo "<pre>";
@@ -158,9 +157,11 @@ if($model->id_pic != NULL){
                 ?>
                 <tr>
                   <td><?= $modelComment[$i]->id ?></td>
-                  <td><?= $modelComment[$i]->comment ?></td>
-                  <td><?= $modelComment[$i]->created_by ?></td>
-                  <td><?= $modelComment[$i]->created_at ?></td>
+                  <td><?= Html::a('<i class="fa fa-trash"></i>', ['deletecomment', 'id' => $modelComment[$i]->id], ['class' => 'btn btn-default']) ?></td>
+                  <td><span class='label label-info'><?= $modelComment[$i]->created_by ?></span><br>
+                      <?= $modelComment[$i]->comment ?><br>
+                      <small>created at: <?= $modelComment[$i]->created_at ?></small>
+                      </td>
                 </tr> 
                 <?php } ?>
               </table>

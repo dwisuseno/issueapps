@@ -5,6 +5,7 @@ namespace app\modules\sprintnow\controllers;
 use Yii;
 use yii\web\Controller;
 use app\modules\sprintnow\models\TaskDelivery;
+use app\modules\sprintnow\models\Comment;
 use app\modules\sprintnow\models\TaskDeliverySearch;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -27,7 +28,7 @@ class DefaultController extends Controller
                 'rules' => [
                     [
                         'allow' => true,
-                        'actions' => ['index', 'view', 'backtobacklog', 'gotobc'],
+                        'actions' => ['index', 'view', 'backtobacklog', 'gotobc','add-comment','deletecomment'],
                         'roles' => ['@']
                     ],
                     [
@@ -58,15 +59,27 @@ class DefaultController extends Controller
         $providerComment = new \yii\data\ArrayDataProvider([
             'allModels' => $model->comments,
         ]);
+        $modelComment = Comment::find()->orderBy(['id' => SORT_DESC])->where('id_tasklist = '.$id.' and deleted = 0')->all();
+        
         return $this->render('view', [
             'model' => $this->findModel($id),
-            'providerComment' => $providerComment,
+            // 'providerComment' => $providerComment,
+            'modelComment' => $modelComment,
         ]);
     }
 
 	protected function findModel($id)
     {
         if (($model = TaskDelivery::findOne($id)) !== null) {
+            return $model;
+        } else {
+            throw new NotFoundHttpException('The requested page does not exist.');
+        }
+    }
+
+    protected function findModelComment($id)
+    {
+        if (($model = Comment::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
@@ -87,6 +100,30 @@ class DefaultController extends Controller
         $model->id_status = 3;
         $model->save(false);
         return $this->redirect(['index']);
+    }
+
+    public function actionAddComment($id){
+        // $model = new Comment();
+        $model = $this->findModel($id);
+        $model_comment = new Comment();
+        if ($model->loadAll(Yii::$app->request->post())) {
+            // var_dump(Yii::$app->request->post());
+            // exit();
+            $model_comment->id_tasklist = $id;
+            $model_comment->comment = $model->data_comment;
+            $model_comment->save();
+            return $this->redirect(Yii::$app->request->referrer);
+        } else {
+            return $this->redirect(Yii::$app->request->referrer);
+        }
+    }
+
+    public function actionDeletecomment($id){
+        $model = $this->findModelComment($id);
+        $model->loadAll(Yii::$app->request->post());
+        $model->deleted = 1;
+        $model->save(false);
+        return $this->redirect(Yii::$app->request->referrer);
     }
 
 }
