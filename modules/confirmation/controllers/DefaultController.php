@@ -28,7 +28,7 @@ class DefaultController extends Controller
                 'rules' => [
                     [
                         'allow' => true,
-                        'actions' => ['index', 'view','backtosprint', 'gotoclose','add-comment','deletecomment'],
+                        'actions' => ['index', 'view','backtosprint', 'gotoclose','add-comment','deletecomment','check'],
                         'roles' => ['@']
                     ],
                     [
@@ -60,7 +60,7 @@ class DefaultController extends Controller
         $providerComment = new \yii\data\ArrayDataProvider([
             'allModels' => $model->comments,
         ]);
-        $modelComment = Comment::find()->orderBy(['id' => SORT_DESC])->where('id_tasklist = '.$id.' and deleted = 0')->all();
+        $modelComment = Comment::find()->orderBy(['id' => SORT_DESC])->where('id_tasklist = '.$id.' and deleted <> 1')->all();
         
         return $this->render('view', [
             'model' => $this->findModel($id),
@@ -119,6 +119,19 @@ class DefaultController extends Controller
         } else {
             return $this->redirect(Yii::$app->request->referrer);
         }
+    }
+
+    public function actionCheck($id){
+        $model = $this->findModelComment($id);
+        $model->loadAll(Yii::$app->request->post());
+        if($model->deleted == 0){
+            $model->deleted = 2;
+        } else {
+            $model->deleted = 0;
+            
+        }
+        $model->save(false);
+        return $this->redirect(Yii::$app->request->referrer);
     }
 
     public function actionDeletecomment($id){

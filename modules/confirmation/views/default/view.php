@@ -90,7 +90,6 @@ if($model->id_pic != NULL){
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-              <?= Html::a('<i class="fa fa-edit"></i>', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
               <?= Html::a('<i class="fa fa-trash"></i>', ['delete', 'id' => $model->id], [
                   'class' => 'btn btn-danger',
                   'data' => [
@@ -138,7 +137,7 @@ if($model->id_pic != NULL){
       <div class='col-md-12'>
       <div class="box box-primary">
         <div class="box-header with-border">
-          <h3 class="box-title">List Comment</h3>
+          <h3 class="box-title">List Comment / Sub Task</h3>
 
         </div>
         <div class="box-body">
@@ -146,18 +145,23 @@ if($model->id_pic != NULL){
                 <tr>
                   <th>ID</th>
                   <th>Action</th>
-                  <th>Comment</th>
+                  <th>Comment / Sub Task</th>
                 </tr>
                 <?php
-                  // echo "<pre>";
-                  // var_dump($modelComment[0]->id);
-                  // echo "</pre>";
-                  // exit();
                   for($i=0;$i<sizeof($modelComment);$i++){
                 ?>
                 <tr>
                   <td><?= $modelComment[$i]->id ?></td>
-                  <td><?= Html::a('<i class="fa fa-trash"></i>', ['deletecomment', 'id' => $modelComment[$i]->id], ['class' => 'btn btn-default']) ?></td>
+                  <td>
+                  <?= Html::a('<i class="fa fa-trash"></i>', ['deletecomment', 'id' => $modelComment[$i]->id], ['class' => 'btn btn-default']) ?>
+                    <?php 
+                      if($modelComment[$i]->deleted == 0){
+                    ?>
+                      <?= Html::a('<i class="fa fa-square-o"></i>', ['check', 'id' => $modelComment[$i]->id], ['class' => 'btn btn-default']) ?>
+                      <?php } else {?>
+                        <?= Html::a('<i class="fa fa-check-square-o"></i>', ['check', 'id' => $modelComment[$i]->id], ['class' => 'btn btn-success']) ?>
+                      <?php }?>
+                  </td>
                   <td><span class='label label-info'><?= $modelComment[$i]->created_by ?></span><br>
                       <?= $modelComment[$i]->comment ?><br>
                       <small>created at: <?= $modelComment[$i]->created_at ?></small>

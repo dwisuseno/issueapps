@@ -30,7 +30,7 @@ class MPic extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name', 'keterangan', 'updated_at', 'created_at', 'deleted', 'created_by', 'updated_by'], 'string', 'max' => 255]
+            [['name', 'keterangan','email', 'updated_at', 'created_at', 'deleted', 'created_by', 'updated_by'], 'string', 'max' => 255]
         ];
     }
     
@@ -50,6 +50,7 @@ class MPic extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'name' => 'Name',
+            'email' => 'Email',
             'keterangan' => 'Keterangan',
         ];
     }

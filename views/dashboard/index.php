@@ -42,7 +42,7 @@ date_default_timezone_set('Asia/Bangkok');
 
             <div class="info-box-content">
 
-              <span class="info-box-text">All Issue</span>
+              <span class="info-box-text">All Task</span>
 
               <span class="info-box-number"><?= $totalAllIssue ?></span>
 
@@ -68,7 +68,7 @@ date_default_timezone_set('Asia/Bangkok');
 
             <div class="info-box-content">
 
-              <span class="info-box-text">High Issue</span>
+              <span class="info-box-text">High Task</span>
 
               <span class="info-box-number"><?= $totalHighIssue ?></span>
 
@@ -102,7 +102,7 @@ date_default_timezone_set('Asia/Bangkok');
 
             <div class="info-box-content">
 
-              <span class="info-box-text">Done Issue</span>
+              <span class="info-box-text">Done Task</span>
 
               <span class="info-box-number"><?= $totalDoneIssue ?></span>
 
@@ -128,7 +128,7 @@ date_default_timezone_set('Asia/Bangkok');
 
             <div class="info-box-content">
 
-              <span class="info-box-text">Sprints</span>
+              <span class="info-box-text">On Progress</span>
 
               <span class="info-box-number"><?= $totalSprint ?></span>
 
@@ -156,7 +156,7 @@ date_default_timezone_set('Asia/Bangkok');
 
             <div class="box-header with-border">
 
-              <h3 class="box-title">Issue Monitoring</h3>
+              <h3 class="box-title">Task Monitoring</h3>
 
 
 
@@ -190,7 +190,7 @@ date_default_timezone_set('Asia/Bangkok');
 
                     <h5 class="description-header"><?php if((int)$totalWebTask!=0){ echo $totalWebTask;} else { echo "0";} ?></h5>
 
-                    <span class="description-text">WEB ISSUE</span>
+                    <span class="description-text">WEB TASK</span>
 
                   </div>
 
@@ -216,7 +216,7 @@ date_default_timezone_set('Asia/Bangkok');
 
                     <h5 class="description-header"><?= $totalMobileTask ?></h5>
 
-                    <span class="description-text">MOBILE ISSUE</span>
+                    <span class="description-text">MOBILE TASK</span>
 
                   </div>
 
@@ -240,7 +240,7 @@ date_default_timezone_set('Asia/Bangkok');
 
                     <h5 class="description-header"><?= $totalRfidTask ?></h5>
 
-                    <span class="description-text">RFID ISSUE</span>
+                    <span class="description-text">RFID TASK</span>
 
                   </div>
 
@@ -282,7 +282,7 @@ date_default_timezone_set('Asia/Bangkok');
 
             <div class="box-header">
 
-              <h3 class="box-title">Check Quantity Task</h3>
+              <h3 class="box-title">Task On Developers</h3>
 
             </div>
 
