@@ -90,7 +90,7 @@ class DefaultController extends Controller
     	$model = $this->findModel($id);
         $model->loadAll(Yii::$app->request->post());
         $model->id_status = 4;
-        $model->actual_finish_date = date("Y-m-d H:i:s");
+        
         $model->deployment = "Production";
         $model->save();
         return $this->redirect(['index']);

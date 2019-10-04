@@ -71,17 +71,30 @@ $this->registerJs($search);
 
                         $interval = $start_date->diff($end_date);
 
-                        $jumlah_comment = Comment::find()->where('id_tasklist = '.$model->id.' and deleted = 0')->count();
-                        $jumlah_all_comment = Comment::find()->where('id_tasklist = '.$model->id.' and deleted <> 1')->count();
-
-                        return "<span class='label label-info'>".$model->aplikasi->name." - Sprint ".$model->id_sprint."</span><br>".$model->issue."<br><i><h5>Rencana Perbaikan: ".date_format($start_date,"d M Y")." s.d. ".date_format($end_date,"d M Y")." (".$interval->days." days)</h5></i><br><small>created at: ".date_format($date,"d M Y")." - ".$jumlah_comment." Open from ".$jumlah_all_comment." Closed Comments</small>";
+                        return "<span class='label label-info'>".$model->aplikasi->name." - Sprint ".$model->id_sprint."</span><br>".$model->issue."<br><i><h5>Rencana Perbaikan: ".date_format($start_date,"d M Y")." s.d. ".date_format($end_date,"d M Y")." (".$interval->days." days)</h5></i><br><small>created at: ".date_format($date,"d M Y");
                     },
                 ],
             [
                     'attribute' => 'id_status',
+                    'format' => 'html',
                     // 'label' => 'Id Status',
                     'value' => function($model){
-                        return $model->status->name;
+                        $tanggal1 = strtotime($model->end_date);
+                        $tanggal2 = time();
+                        
+                        $perbedaan = $tanggal1 - $tanggal2;
+                        $selisih_hari = floor($perbedaan / (60 * 60 * 24));
+
+                        $jumlah_comment = Comment::find()->where('id_tasklist = '.$model->id.' and deleted = 0')->count();
+                        $jumlah_all_comment = Comment::find()->where('id_tasklist = '.$model->id.' and deleted <> 1')->count();
+
+                        if((int)$selisih_hari < 0){
+                            return " <span class='label label-danger'> Delayed ".$selisih_hari." days </span>"." <br> ".$jumlah_comment." Open from ".$jumlah_all_comment." Comments</small>";
+                        } else {
+                            return "<span class='label label-warning'> On Track ".$selisih_hari." days </span>"." <br> ".$jumlah_comment." Open from ".$jumlah_all_comment." Comments</small>";
+                        }
+
+                        
                     },
                 ],
             [
@@ -91,11 +104,11 @@ $this->registerJs($search);
                     'value' => function($model){
                         if($model->prioritas != NULL){
                             if($model->prioritas->id == 1){
-                                return "<span class='label label-info'>".$model->prioritas->name."</span>";
+                                return "<span class='label label-info'>".$model->status->name." - ".$model->prioritas->name."</span>";
                             } else if($model->prioritas->id == 2){
-                                return "<span class='label label-warning'>".$model->prioritas->name."</span>";
+                                return "<span class='label label-warning'>".$model->status->name." - ".$model->prioritas->name."</span>";
                             } else {
-                                return "<span class='label label-danger'>".$model->prioritas->name."</span>";
+                                return "<span class='label label-danger'>".$model->status->name." - ".$model->prioritas->name."</span>";
                             }
                         } else 
                             {
@@ -122,7 +135,7 @@ $this->registerJs($search);
                 'template' => ' {changetoprogress}',
                 'buttons' => [
                     'changetoprogress' => function ($url) {
-                        return Html::a('<i class="fa fa-arrow-circle-right"></i> Move to Sprint<br>', $url, ['title' => 'On Progress', 'class' => 'btn btn-success']);
+                        return Html::a('<i class="fa fa-arrow-circle-right"></i> Move to Sprint<br>', $url, ['title' => 'On Progress', 'class' => 'btn btn-primary']);
                     },
                 ],
             ],

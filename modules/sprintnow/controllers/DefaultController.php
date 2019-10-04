@@ -97,6 +97,7 @@ class DefaultController extends Controller
     public function actionGotobc($id){
     	$model = $this->findModel($id);
         $model->loadAll(Yii::$app->request->post());
+        $model->actual_finish_date = date("Y-m-d H:i:s");
         $model->id_status = 3;
         $model->save(false);
         return $this->redirect(['index']);
