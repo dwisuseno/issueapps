@@ -16,7 +16,7 @@ class MModul extends BaseMModul
     {
         return array_replace_recursive(parent::rules(),
 	    [
-            [['id_project', 'kode'], 'integer'],
+            [['id_project','id_status', 'kode'], 'integer'],
             [['name', 'keterangan', 'updated_at', 'created_at', 'deleted', 'created_by', 'updated_by'], 'string', 'max' => 255]
         ]);
     }

@@ -11,6 +11,7 @@ use yii\behaviors\BlameableBehavior;
  *
  * @property integer $id
  * @property integer $id_project
+ * @property integer $id_status
  * @property integer $kode
  * @property string $name
  * @property string $keterangan
@@ -32,7 +33,7 @@ class MModul extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id_project', 'kode'], 'integer'],
+            [['id_project','id_status', 'kode'], 'integer'],
             [['name', 'keterangan', 'updated_at', 'created_at', 'deleted', 'created_by', 'updated_by'], 'string', 'max' => 255]
         ];
     }
@@ -52,7 +53,8 @@ class MModul extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'id_project' => 'Id Project',
+            'id_project' => 'Project',
+            'id_status' => 'Status',
             'kode' => 'Kode',
             'name' => 'Name',
             'keterangan' => 'Keterangan',

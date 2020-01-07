@@ -82,7 +82,7 @@ AppAsset::register($this);
                     <span class="fa fa-caret-down"></span></button>
                   <ul class="dropdown-menu">
                   <?php 
-                    $sql = "select * from m_modul";
+                    $sql = "select * from m_modul where id_status = 0";
                     $db = Yii::$app->db;
                     $result = $db->createCommand($sql)->queryAll();
                     // var_dump($result);
@@ -187,7 +187,7 @@ AppAsset::register($this);
                   <?php } ?>
                     <li class="header">Let's Scrum it!</li>
                     <li><a href="<?= Url::home()?>dashboard"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
-                    
+                    <li><a href="<?= Url::home()?>board"><i class="fa fa-list-alt"></i> <span>Scrum Board</span></a></li>
                     <li><a href="<?= Url::home()?>backlog"><i class="fa fa-square-o"></i> <span>Back Log</span></a></li>
                     <li><a href="<?= Url::home()?>sprintnow"><i class="fa fa-list-alt"></i> <span>Sprint Now</span></a></li>
                     <li><a href="<?= Url::home()?>confirmation"><i class="fa fa-tasks"></i> <span>Need Confirmation</span></a></li>

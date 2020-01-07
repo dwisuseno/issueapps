@@ -23,7 +23,7 @@ $this->registerJs($search);
 
     <p>
         <?= Html::a('<i class="glyphicon glyphicon-plus"></i>', ['create'], ['class' => 'btn btn-success']) ?>
-        <?= Html::a('Advance Search', '#', ['class' => 'btn btn-info search-button']) ?>
+        <?= Html::a('Search', '#', ['class' => 'btn btn-info search-button']) ?>
         
     </p>
     <div class="search-form" style="display:none">
@@ -32,9 +32,25 @@ $this->registerJs($search);
     <?php 
     $gridColumn = [
         ['class' => 'yii\grid\SerialColumn'],
+        [
+            'class' => 'yii\grid\ActionColumn',
+            'template' => ' {delete}',
+        ],
         ['attribute' => 'id', 'visible' => false],
-        'kode',
+        // 'kode',
         'name',
+        [
+            'attribute' => 'id_status',
+            'format' => 'html',
+            'value' => function($model){
+                if($model->id_status == 0){
+                    return "<span class='label label-primary'>AKTIF</span>";
+                } else 
+                    {
+                        return "<span class='label label-danger'>Non AKTIF</span>";
+                    }
+            },
+        ],
         [
             'attribute' => 'id_project',
             'label' => 'Project',
@@ -51,6 +67,22 @@ $this->registerJs($search);
         // 'keterangan',
         [
             'class' => 'yii\grid\ActionColumn',
+            'template' => ' {update}',
+        ],
+        [
+            'class' => 'yii\grid\ActionColumn',
+            'template' => ' {deactivate}',
+            'buttons' => [
+                'deactivate' => function ($url,$model) {
+                    if($model->id_status == 0){
+                        return Html::a('<i class="fa fa-times"></i> Deactivate<br>', $url, ['title' => 'Deactivate', 'class' => 'btn btn-danger']);
+                    } else 
+                        {
+                            return Html::a('<i class="fa fa-check"></i> Activate<br>', $url, ['title' => 'Activate', 'class' => 'btn btn-primary']);
+                        }
+                    
+                },
+            ],
         ],
     ]; 
     ?>

@@ -28,7 +28,7 @@ class MModulController extends Controller
                 'rules' => [
                     [
                         'allow' => true,
-                        'actions' => ['index', 'view', 'create', 'update', 'delete'],
+                        'actions' => ['index', 'view', 'create', 'update', 'delete','deactivate'],
                         'roles' => ['@']
                     ],
                     [
@@ -132,5 +132,18 @@ class MModulController extends Controller
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
         }
+    }
+
+    public function actionDeactivate($id){
+        $model = $this->findModel($id);
+        $model->loadAll(Yii::$app->request->post());
+        if($model->id_status == 0){
+            $model->id_status = 1;
+        } else {
+            $model->id_status = 0;
+            
+        }
+        $model->save(false);
+        return $this->redirect(Yii::$app->request->referrer);
     }
 }
