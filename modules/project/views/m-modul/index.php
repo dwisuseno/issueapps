@@ -33,7 +33,7 @@ $this->registerJs($search);
     $gridColumn = [
         ['class' => 'yii\grid\SerialColumn'],
         ['attribute' => 'id', 'visible' => false],
-        // 'kode',
+        'kode',
         'name',
         [
             'attribute' => 'id_project',

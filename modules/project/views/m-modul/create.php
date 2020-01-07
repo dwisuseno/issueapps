@@ -7,7 +7,7 @@ use yii\helpers\Html;
 /* @var $model app\modules\project\models\MModul */
 
 $this->title = 'Create Modul';
-$this->params['breadcrumbs'][] = ['label' => 'Mmodul', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Modul', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="mmodul-create">

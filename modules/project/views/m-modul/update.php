@@ -5,9 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\modules\project\models\MModul */
 
-$this->title = 'Update Mmodul: ' . ' ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Mmodul', 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
+$this->title = 'Update Modul: ' . ' ' . $model->id;
+$this->params['breadcrumbs'][] = ['label' => 'Modul', 'url' => ['index']];
 $this->params['breadcrumbs'][] = 'Update';
 ?>
 <div class="mmodul-update">
