@@ -66,7 +66,11 @@ AppAsset::register($this);
           <span class="logo-lg"><b>Mining</b> Tech</span>
         </a>
         <nav class="navbar navbar-inverse ">
-          <div class="container-fluid">
+
+        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+          <div class="container">
             <ul class="nav navbar-nav">
               
               <?php if(Yii::$app->user->identity != null){ ?>
@@ -178,36 +182,18 @@ AppAsset::register($this);
                         </a>
                         <ul class="treeview-menu">
                           <li><a href="<?= Url::home()?>system/m-pic"><i class="fa fa-circle-o"></i> List Developer</a></li>
-                          <li><a href="<?= Url::home()?>system/m-prioritas"><i class="fa fa-circle-o"></i> List Prioritas</a></li>
                           <li><a href="<?= Url::home()?>system/m-aplikasi"><i class="fa fa-circle-o"></i> List Aplikasi</a></li>
-                          <li><a href="<?= Url::home()?>system/m-plattform"><i class="fa fa-circle-o"></i> List Platform</a></li>
-                          <li><a href="<?= Url::home()?>system/m-modul-menu"><i class="fa fa-circle-o"></i> List Menu</a></li>
+                          <li><a href="<?= Url::home()?>system/dsis-system-user-menu"><i class="fa fa-circle-o"></i> Hak Akses</a></li>
                         </ul>
                       </li>
                   <?php } ?>
                     <li class="header">Let's Scrum it!</li>
                     <li><a href="<?= Url::home()?>dashboard"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
-                    <li><a href="<?= Url::home()?>board"><i class="fa fa-list-alt"></i> <span>Scrum Board</span></a></li>
                     <li><a href="<?= Url::home()?>backlog"><i class="fa fa-square-o"></i> <span>Back Log</span></a></li>
                     <li><a href="<?= Url::home()?>sprintnow"><i class="fa fa-list-alt"></i> <span>Sprint Now</span></a></li>
                     <li><a href="<?= Url::home()?>confirmation"><i class="fa fa-tasks"></i> <span>Need Confirmation</span></a></li>
                     <li><a href="<?= Url::home()?>done"><i class="fa fa-check-square-o"></i> <span>Done</span></a></li>
-                    <?php 
-                      
-                      if(Yii::$app->user->identity != null){ 
-                        $sprint_now = MSprint::find()->where('kode = 1')->one(); ?>
-                        
-                        <li><a href="<?= Url::home()?>"><?php 
-                        if(isset($_SESSION["project"])){
-                            echo $_SESSION["project"];
-                          } else {
-                            echo "Please Select";
-                          } ?><span class="pull-right-container">
-              <small class="label pull-right bg-green">Modul</small>
-            </span></li>
-                      <?php } else {?>
-
-                      <?php } ?>
+                    <li><a href="<?= Url::home()?>board"><i class="fa fa-indent"></i> <span>Scrum Board</span></a></li>
                     
                 <?php } ?>
             </ul>

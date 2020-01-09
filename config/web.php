@@ -51,9 +51,6 @@ $config = [
         'frontend' => [
             'class' => 'app\modules\frontend\Module',
         ],
-        'board' => [
-            'class' => 'app\modules\board\Module',
-        ],
 
     ],
     'components' => [

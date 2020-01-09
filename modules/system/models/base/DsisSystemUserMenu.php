@@ -4,6 +4,7 @@ namespace app\modules\system\models\base;
 
 use Yii;
 use yii\behaviors\TimestampBehavior;
+use yii\behaviors\BlameableBehavior;
 
 /**
  * This is the base model class for table "dsis_system_user_menu".
@@ -11,9 +12,6 @@ use yii\behaviors\TimestampBehavior;
  * @property integer $id
  * @property integer $modul_id
  * @property integer $user_id
- *
- * @property \app\modules\system\models\DsisSystemUser $user
- * @property \app\modules\system\models\DsisSystemModul $modul
  */
 class DsisSystemUserMenu extends \yii\db\ActiveRecord
 {
@@ -38,14 +36,6 @@ class DsisSystemUserMenu extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\Connection the database connection used by this AR class.
-     */
-    public static function getDb()
-    {
-        return Yii::$app->get('db');
-    }
-
-    /**
      * @inheritdoc
      */
     public function attributeLabels()
@@ -56,7 +46,16 @@ class DsisSystemUserMenu extends \yii\db\ActiveRecord
             'user_id' => 'User ID',
         ];
     }
-    
+
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getModul()
+    {
+        return $this->hasOne(\app\modules\project\models\MModul::className(), ['id' => 'modul_id']);
+    }
+
     /**
      * @return \yii\db\ActiveQuery
      */
@@ -64,20 +63,28 @@ class DsisSystemUserMenu extends \yii\db\ActiveRecord
     {
         return $this->hasOne(\app\modules\system\models\DsisSystemUser::className(), ['id' => 'user_id']);
     }
-        
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getModul()
-    {
-        return $this->hasOne(\app\modules\system\models\DsisSystemModul::className(), ['id' => 'modul_id']);
-    }
-    
+
 /**
      * @inheritdoc
      * @return array mixed
      */ 
-    
+    public function behaviors()
+    {
+        return [
+            'timestamp' => [
+                'class' => TimestampBehavior::className(),
+                'createdAtAttribute' => 'created_at',
+                'updatedAtAttribute' => 'updated_at',
+                'value' => new \yii\db\Expression('NOW()'),
+            ],
+            'blameable' => [
+                'class' => BlameableBehavior::className(),
+                'createdByAttribute' => 'created_by',
+                'updatedByAttribute' => 'updated_by',
+                'value' => \Yii::$app->user->identity->name,
+            ],
+        ];
+    }
 
     /**
      * @inheritdoc
