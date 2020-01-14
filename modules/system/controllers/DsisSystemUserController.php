@@ -150,9 +150,10 @@ class DsisSystemUserController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->deleteWithRelated();
-
-        return $this->redirect(['index']);
+        $model = $this->findModel($id);
+        $model->status = 'inactive';
+        $model->save();
+        return $this->redirect(Yii::$app->request->referrer);
     }
     
     /**

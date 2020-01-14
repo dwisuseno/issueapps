@@ -40,7 +40,7 @@ $this->registerJs($search);
                 }
                 
             },
-            'group'=>true,
+            'group'=> true,
         ],
         [
             'attribute' => 'modul_id',
@@ -53,13 +53,20 @@ $this->registerJs($search);
                 }
                 
             },
-            
+            // 'group'=> true,
         ],
-
-        
         [
             'class' => 'yii\grid\ActionColumn',
         ],
+        // [
+        //     'class' => 'yii\grid\ActionColumn',
+        //     'template' => ' {allaccess}',
+        //     'buttons' => [
+        //         'allaccess' => function ($url) {
+        //             return Html::a('<i class="fa fa-arrow-circle-right"></i> Give All Access<br>', $url, ['title' => 'All Access', 'class' => 'btn btn-primary']);
+        //         },
+        //     ],
+        // ],
     ]; 
     ?>
     <?= GridView::widget([

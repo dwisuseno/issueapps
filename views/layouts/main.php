@@ -40,7 +40,7 @@ AppAsset::register($this);
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="<?= Url::home()?>img/favicon.ico">
     
 
     <?= Html::csrfMetaTags() ?>
@@ -77,7 +77,7 @@ AppAsset::register($this);
               
               <div class="input-group margin">
                   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><?php 
-                  if(isset($_SESSION["project"])){
+                  if(isset($_SESSION["project"]) && $_SESSION["project"] != 'Default'){
                     echo $_SESSION["project"];
                   } else {
                     echo "Please Select";
@@ -86,7 +86,7 @@ AppAsset::register($this);
                     <span class="fa fa-caret-down"></span></button>
                   <ul class="dropdown-menu">
                   <?php 
-                    $sql = "select * from m_modul where id_status = 0";
+                    $sql = "select m.id, m.name from m_modul m, dsis_system_user_menu d where m.id_status = 0 and m.id = d.modul_id and d.user_id = ".Yii::$app->user->id."";
                     $db = Yii::$app->db;
                     $result = $db->createCommand($sql)->queryAll();
                     // var_dump($result);
@@ -122,7 +122,7 @@ AppAsset::register($this);
                       <p>
                         <?= $user->name ?>
                       </p>
-                      <p><?= $user->role_id ?></p>
+                      <p><?php // $user->role_id ?></p>
                       
                     </li>
                     <!-- Menu Body -->
@@ -166,11 +166,17 @@ AppAsset::register($this);
                           </span>
                         </a>
                         <ul class="treeview-menu">
-                          
+                        <?php if(isset($_SESSION["project"]) && $_SESSION["project"] != 'Default'){ ?>
                           <li><a href="<?= Url::home()?>system/dsis-system-user"><i class="fa fa-user-circle-o"></i> User</a></li>
                           <li><a href="<?= Url::home()?>project/m-modul"><i class="fa fa-cube"></i> Modul</a></li>
                           <li><a href="<?= Url::home()?>system/dsis-system-menu"><i class="fa fa-th-list"></i> Menu</a></li>
                           <li><a href="<?= Url::home()?>project/m-project"><i class="fa fa-clipboard"></i> <span>List Project</span></a></li>
+                        <?php } else { ?>
+                          <li><a href="<?= Url::home()?>"><i class="fa fa-user-circle-o"></i> User</a></li>
+                          <li><a href="<?= Url::home()?>"><i class="fa fa-cube"></i> Modul</a></li>
+                          <li><a href="<?= Url::home()?>"><i class="fa fa-th-list"></i> Menu</a></li>
+                          <li><a href="<?= Url::home()?>"><i class="fa fa-clipboard"></i> <span>List Project</span></a></li>
+                         <?php } ?>
                         </ul>
                       </li>
                       <li class="treeview menu">
@@ -188,13 +194,21 @@ AppAsset::register($this);
                       </li>
                   <?php } ?>
                     <li class="header">Let's Scrum it!</li>
-                    <li><a href="<?= Url::home()?>dashboard"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
-                    <li><a href="<?= Url::home()?>backlog"><i class="fa fa-square-o"></i> <span>Back Log</span></a></li>
-                    <li><a href="<?= Url::home()?>sprintnow"><i class="fa fa-list-alt"></i> <span>Sprint Now</span></a></li>
-                    <li><a href="<?= Url::home()?>confirmation"><i class="fa fa-tasks"></i> <span>Need Confirmation</span></a></li>
-                    <li><a href="<?= Url::home()?>done"><i class="fa fa-check-square-o"></i> <span>Done</span></a></li>
-                    <li><a href="<?= Url::home()?>board"><i class="fa fa-indent"></i> <span>Scrum Board</span></a></li>
-                    
+                    <?php if(isset($_SESSION["project"]) && $_SESSION["project"] != 'Default'){ ?>
+                      <li><a href="<?= Url::home()?>dashboard"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
+                      <li><a href="<?= Url::home()?>backlog"><i class="fa fa-square-o"></i> <span>Back Log</span></a></li>
+                      <li><a href="<?= Url::home()?>sprintnow"><i class="fa fa-list-alt"></i> <span>Sprint Now</span></a></li>
+                      <li><a href="<?= Url::home()?>confirmation"><i class="fa fa-tasks"></i> <span>Need Confirmation</span></a></li>
+                      <li><a href="<?= Url::home()?>done"><i class="fa fa-check-square-o"></i> <span>Done</span></a></li>
+                      <li><a href="<?= Url::home()?>board"><i class="fa fa-indent"></i> <span>Scrum Board</span></a></li>
+                    <?php } else { ?>
+                      <li><a href="<?= Url::home()?>"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
+                      <li><a href="<?= Url::home()?>"><i class="fa fa-square-o"></i> <span>Back Log</span></a></li>
+                      <li><a href="<?= Url::home()?>"><i class="fa fa-list-alt"></i> <span>Sprint Now</span></a></li>
+                      <li><a href="<?= Url::home()?>"><i class="fa fa-tasks"></i> <span>Need Confirmation</span></a></li>
+                      <li><a href="<?= Url::home()?>"><i class="fa fa-check-square-o"></i> <span>Done</span></a></li>
+                      <li><a href="<?= Url::home()?>"><i class="fa fa-indent"></i> <span>Scrum Board</span></a></li>
+                    <?php } ?>
                 <?php } ?>
             </ul>
           </section>

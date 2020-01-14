@@ -111,6 +111,7 @@ class DsisSystemUserMenuController extends Controller
      * @param integer $id
      * @return mixed
      */
+
     public function actionDelete($id)
     {
         $this->findModel($id)->deleteWithRelated();

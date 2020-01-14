@@ -46,6 +46,7 @@ $this->registerJs($search);
         'name',
         'email',
         'username',
+        'status',
         [
             'attribute' => 'role_id',
             'label' => 'Role',
