@@ -76,9 +76,9 @@ $config = [
             // gunakan pengaturan ini untuk pengiriman email.
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
-                'host' => 'mail.hseautomation.com',
-                'username' => 'noreply@hseautomation.com',
-                'password' => '$0%jNBs?PUT1',
+                'host' => 'smtp server',
+                'username' => 'YOUREMAIL',
+                'password' => 'YOURPASSWORD',
                 'port' => '465',
                 'encryption' => 'ssl',
             ],
